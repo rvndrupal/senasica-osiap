@@ -1,0 +1,53 @@
+<?php
+
+
+$node=node_load($data->nid);
+dpm($node);
+
+$casasuno="";
+$casasdos="";
+$casastres="";
+$casauno=$node->field_naranja['und'][0]['value'];
+$casados=$node->field_verde['und'][0]['value'];
+$casatres=$node->field_rojo['und'][0]['value'];
+	
+
+	if($casauno==1)
+	{
+		
+	echo'<div class="contentHome">
+	    <div class="contHome">
+			<div class="cHomeN"></div><b>'."Naranja".'</b>
+		</div>		
+		
+	</div>
+	';
+	}
+	
+
+	if($casados==1)
+	{
+    
+	echo'<div class="contentHome">
+	    <div class="contHome">
+			<div class="cHomeV"></div><b>'."Verde".'</b>
+		</div>		
+		
+	</div>
+	';
+	}
+
+	if($casatres==1)
+	{
+    
+	echo'<div class="contentHome">
+	    <div class="contHome">
+			<div class="cHomeR"></div><b>'."Rojo".'</b>
+		</div>		
+		
+	</div>
+	';
+	}
+	
+
+?>

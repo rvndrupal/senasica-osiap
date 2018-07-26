@@ -1,0 +1,165 @@
+@mixin colorheader($color){
+	.region.region-header{
+		#block-panels-mini-header{
+			.block-content.content{
+				#mini-panel-header{
+					background-color: $color;
+					.region-two-brick-bottom{
+						ul{
+							li{
+								background: $color;
+								a{
+									background: $color;	
+								}
+								ul{
+									background: $color;
+									li{
+										background: $color;
+										ul{
+											background: $color;
+											li{
+												background: $color;
+												a{
+													background: $color;	
+												}
+											}
+										}:hover{
+											background: $color;
+											span{
+												background: $color;
+											}
+										}
+									}:hover{
+										background: $color;
+									}
+								}
+							}:hover{
+								background: $color;
+								span{
+									background: $color;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	#footer{
+		background-color: $color;
+	}	
+}
+
+
+.noticias{
+	#page-title{
+		display: none;
+	}
+	#block-system-main{
+		 background-color: rgba(128, 128, 128, 0.04);
+		h2{
+			overflow: hidden;
+		    width: 640px;
+		    margin: 0px 0 0 26%;
+		    padding: 25px 0 0 0;
+		    height: 36px;
+		    font-size: 31px;
+		}
+
+		.embedded-video {
+		    
+		    margin: 15px 0 0 26%;
+		}
+
+		.TextImg {
+			.texto_node{
+				p{
+					text-align: justify;
+				}
+			}
+			img{
+				width: 325px;
+				height: auto;
+				float: right;
+				margin: 5px 0px 0px 7px;
+				border: 3px solid black;
+			}
+		    
+	        width: 640px;
+	        margin: 0px 0 0 26%;
+		}
+
+		
+
+
+	}//MAIN
+
+	#block-block-4{
+		.desCus.Pesquero{
+		background-color: #4cb2e2;
+		max-width: 1000px;
+		margin: 0 auto;
+		height: 24px;
+		position: relative;
+			span {
+			    font-size: 11px;
+			    margin: 0 0 0 85%;
+			    color: #fff;
+			}
+
+			a{
+				.pdf{
+				    width: 59px;
+				    height: 55px;
+				    margin: -38px 0 0 96%;
+				}
+			}
+		}
+
+		.desCus.Pecuario{
+		background-color: #89352a;
+		max-width: 1000px;
+		margin: 0 auto;
+		height: 24px;
+		position: relative;	
+			span {
+			    font-size: 11px;
+			    margin: 0 0 0 85%;
+			    color: #fff;
+			}	
+			a{
+				.pdf{
+				    width: 59px;
+				    height: 55px;
+				    margin: -38px 0 0 96%;
+				}
+			}
+		}
+
+		.desCus.Agricola{
+		background-color: #6dad3b;
+		max-width: 1000px;
+		margin: 0 auto;
+		height: 24px;
+		position: relative;
+			span {
+			    font-size: 11px;
+			    margin: 0 0 0 85%;
+			    color: #fff;
+			}
+			a{
+				.pdf{
+				    width: 59px;
+				    height: 55px;
+				    margin: -38px 0 0 96%;
+				}
+			}
+		}
+	}
+}.page-acuicola{
+	@include colorheader(#4CB2E2);
+}.page-vegetal{
+	@include colorheader(#6DAD3B);
+}.page-pecuario{
+	@include colorheader(#89352A);
+}

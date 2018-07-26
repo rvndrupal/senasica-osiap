@@ -1,0 +1,403 @@
+.header-verde{
+	background-color: #6DAD3B;
+	.region.region-two-brick-top.region-conditional-stack{
+		height: 37px;
+		.pane-search-form{
+			#search-block-form{
+				float: right;
+				.form-item-search-block-form{
+					#edit-search-block-form--2{
+						width: 200px;
+						height: 37px;
+					}
+				}
+				.form-actions.form-wrapper{
+					.form-submit{
+						/* background:url('/sites/default/files/header/lupasearch.png') no-repeat; */
+						background:url('http://localhost/senasica/sites/default/files/header/lupasearch.png') no-repeat;
+						background-position:center;
+						height: 30px;
+					    font-size: 0px;
+					    border: none;
+					    width: 30px;
+					    cursor: pointer;
+					    margin: 0 0 0 0px;
+					    background-size: 25px 25px;
+					        padding: 8px 0 0 0;
+					}
+				}
+			}
+		}
+	}
+
+	.region.region-two-brick-middle.region-conditional-stack{
+		width: 100%;
+		.block-inner.clearfix{
+			margin: 0 0 0 0;
+			.view-header{
+				.views-row-1{
+					background-color: #ffffff;
+					.views-field-field-imgheader{
+						width: 100%;
+						.field-content{
+							img{
+								width: 100%;
+								height: auto;
+								margin: 0 auto;
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.region.region-two-brick-bottom.region-conditional-stack{
+		 height: 50px;
+		// margin: 10px 0 -9px 0;
+		padding: 0 0 0 0;
+		.block-title{
+			display: none;
+		}
+		.block-content{
+			//float: right;
+			//position: relative;
+			//padding: 10px 0;
+		}
+	}
+
+	.menu_global_estados.verde{
+		#menu{
+			z-index: 999;
+		}
+	}
+
+	.menu_global_estados.verde {
+    float: right;
+    width: 698px;
+	}
+
+	
+
+}//verde
+
+/*
+@media screen and (min-width : 1200px) and (max-width: 1300px){
+			.header-verde {
+				.menu_global_estados.verde {
+   				margin: 0 0 0 24%;
+    			}
+		  				    
+			}//header
+	}
+
+@media screen and (min-width : 1300px) and (max-width: 1400px){
+			.header-verde {
+				.menu_global_estados.verde {
+   				margin: 0 0 0 47%;
+    			}
+		  				    
+			}//header
+	}
+
+@media screen and (min-width : 1700px) and (max-width: 1800px){
+			.header-verde {
+				.menu_global_estados.verde {
+   				margin: 0 0 0 48%;
+    			}
+		  				    
+			}//header
+	}
+
+@media screen and (min-width : 1801px) and (max-width: 2500px){
+			.header-verde {
+				.menu_global_estados.verde {
+   				margin: 0 0 0 62%;
+    			}
+		  				    
+			}//header
+	}
+
+ 
+*/
+
+
+
+
+
+.header-rojo{
+	background-color: #89352A;
+	.region.region-two-brick-top.region-conditional-stack{
+		height: 37px;
+		.pane-search-form{
+			#search-block-form{
+				float: right;
+				.form-item-search-block-form{
+					#edit-search-block-form--2{
+						width: 200px;
+						height: 37px;
+					}
+				}
+				.form-actions.form-wrapper{
+					.form-submit{
+						/* background:url('/sites/default/files/header/lupasearch.png') no-repeat; */
+						background:url('http://localhost/senasica_pruebas/sites/default/files/header/lupasearch.png') no-repeat;
+						background-position:center;
+						height: 30px;
+					    font-size: 0px;
+					    border: none;
+					    width: 30px;
+					    cursor: pointer;
+					    margin: 0 0 0 0px;
+					    background-size: 25px 25px;
+					        padding: 8px 0 0 0;
+					}
+				}
+			}
+		}
+	}
+
+	.region.region-two-brick-middle.region-conditional-stack{
+		width: 100%;
+		.block-inner.clearfix{
+			margin: 0 0 0 0;
+			.view-header{
+				.views-row-1{
+					background-color: #ffffff;
+					.views-field-field-imgheader{
+						width: 100%;
+						.field-content{
+							img{
+								width: 100%;
+								height: auto;
+								margin: 0 auto;
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.region.region-two-brick-bottom.region-conditional-stack{
+		 height: 50px;
+		// margin: 10px 0 -9px 0;
+		padding: 0 0 0 0;
+		.block-title{
+			display: none;
+		}
+		.block-content{
+			//float: right;
+			//position: relative;
+			//padding: 10px 0;
+		}
+	}
+
+	/*.menu_global_estados.rojo {
+    margin: 0 0 0 33%;
+    
+	}*/
+
+	.menu_global_estados.rojo{
+		#menu{
+			z-index: 999;
+		}
+	}
+
+	.menu_global_estados.rojo {
+    float: right;
+    width: 698px;
+	}
+
+
+}//rojo
+
+
+
+
+/*@media screen and (min-width : 1200px) and (max-width: 1300px){
+			.header-rojo {
+				.menu_global_estados.rojo {
+   				margin: 0 0 0 24%;
+    			}
+		  				    
+			}//header
+	}
+
+@media screen and (min-width : 1300px) and (max-width: 1400px){
+			.header-rojo {
+				.menu_global_estados.rojo {
+   				margin: 0 0 0 47%;
+    			}
+		  				    
+			}//header
+	}
+
+@media screen and (min-width : 1700px) and (max-width: 1800px){
+			.header-rojo {
+				.menu_global_estados.rojo {
+   				margin: 0 0 0 48%;
+    			}
+		  				    
+			}//header
+	}
+
+@media screen and (min-width : 1801px) and (max-width: 2500px){
+			.header-rojo {
+				.menu_global_estados.rojo {
+   				margin: 0 0 0 62%;
+    			}
+		  				    
+			}//header
+	}
+
+ 
+*/
+
+
+
+
+
+
+
+//azul
+.header-azul{
+	background-color: #4CB2E2;
+	.region.region-two-brick-top.region-conditional-stack{
+		height: 37px;
+		.pane-search-form{
+			#search-block-form{
+				float: right;
+				.form-item-search-block-form{
+					#edit-search-block-form--2{
+						width: 200px;
+						height: 37px;
+					}
+				}
+				.form-actions.form-wrapper{
+					.form-submit{
+						/* background:url('/sites/default/files/header/lupasearch.png') no-repeat; */
+						background:url('http://localhost/senasica_pruebas/sites/default/files/header/lupasearch.png') no-repeat;
+						background-position:center;
+						height: 30px;
+					    font-size: 0px;
+					    border: none;
+					    width: 30px;
+					    cursor: pointer;
+					    margin: 0 0 0 0px;
+					    background-size: 25px 25px;
+					        padding: 8px 0 0 0;
+					}
+				}
+			}
+		}
+	}
+
+	.region.region-two-brick-middle.region-conditional-stack{
+		width: 100%;
+		.block-inner.clearfix{
+			margin: 0 0 0 0;
+			.view-header{
+				.views-row-1{
+					background-color: #ffffff;
+					.views-field-field-imgheader{
+						width: 100%;
+						.field-content{
+							img{
+								width: 100%;
+								height: auto;
+								margin: 0 auto;
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.region.region-two-brick-bottom.region-conditional-stack{
+		 height: 50px;
+		// margin: 10px 0 -9px 0;
+		padding: 0 0 0 0;
+		.block-title{
+			display: none;
+		}
+		.block-content{
+			//float: right;
+			//position: relative;
+			//padding: 10px 0;
+		}
+	}
+
+	/*.menu_global_estados.azul {
+    margin: 0 0 0 33%;
+    
+	}*/
+
+	.menu_global_estados.azul{
+		#menu{
+			z-index: 999;
+		}
+	}
+
+	.menu_global_estados.azul {
+    float: right;
+    width: 698px;
+	}
+
+
+}//azul
+
+/*
+@media screen and (min-width : 1200px) and (max-width: 1300px){
+			.header-azul {
+				.menu_global_estados.azul {
+   				margin: 0 0 0 24%;
+    			}
+		  				    
+			}//header
+	}
+
+@media screen and (min-width : 1300px) and (max-width: 1400px){
+			.header-azul {
+				.menu_global_estados.azul {
+   				margin: 0 0 0 47%;
+    			}
+		  				    
+			}//header
+	}
+
+@media screen and (min-width : 1700px) and (max-width: 1800px){
+			.header-azul {
+				.menu_global_estados.azul {
+   				margin: 0 0 0 48%;
+    			}
+		  				    
+			}//header
+	}
+
+@media screen and (min-width : 1801px) and (max-width: 2500px){
+			.header-azul {
+				.menu_global_estados.azul {
+   				margin: 0 0 0 62%;
+    			}
+		  				    
+			}//header
+	}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+

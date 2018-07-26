@@ -1,0 +1,165 @@
+#mini-panel-header{
+	background-color: #4C535B;
+	.region.region-two-brick-top.region-conditional-stack{
+		height: 37px;
+		.pane-search-form{
+			#search-block-form{
+				float: right;
+				.form-item-search-block-form{
+					#edit-search-block-form--2{
+						width: 200px;
+						height: 37px;
+					}
+				}
+				.form-actions.form-wrapper{
+					.form-submit{
+						/* background:url('/sites/default/files/header/lupasearch.png') no-repeat; */
+						background:url('http://50.23.50.246:8000/senasica/sites/default/files/header/lupasearch.png') no-repeat;
+						background-position:center;
+						height: 30px;
+					    font-size: 0px;
+					    border: none;
+					    width: 30px;
+					    cursor: pointer;
+					    margin: 0 0 0 0px;
+					    background-size: 25px 25px;
+					    padding: 6px 0 0 0;
+					}
+				}
+			}
+		}
+	}
+
+	.region.region-two-brick-middle.region-conditional-stack{
+		width: 100%;
+		.block-inner.clearfix{
+			margin: 0 0 0 0;
+			.view-header{
+				.views-row-1{
+					background-color: #ffffff;
+					.views-field-field-imgheader{
+						width: 100%;
+						.field-content{
+							img{
+								width: 100%;
+								height: auto;
+								margin: 0 auto;
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.region.region-two-brick-bottom.region-conditional-stack{
+		// height: 36px;
+		// margin: 10px 0 -9px 0;
+		padding: 0 0 0 0;
+		.block-title{
+			display: none;
+		}
+		.block-content{
+			float: right;
+			position: relative;
+			padding: 10px 0;
+			ul{
+				float: none;
+				li{
+					background: #4C535B;
+					margin: 0 10px 0 10px;
+					padding: 0 0 0 0;
+					border: none;
+					a,span{
+						font-family: Arial, sans-serif;
+						color: #ffffff;
+						font-size: 14px;
+						text-decoration: none;
+						border: none;
+						padding: 0px 0 0 0;
+						height: auto;
+						line-height: normal;
+						span.sf-sub-indicator{
+							display: none;
+						}
+					}&:hover{
+						a{
+							background: #4C535B;
+						}
+						span{
+							background: #4C535B;
+						}
+					}//hover imagen
+				}
+				li.active-trail{
+					background: #4C535B;
+					margin: 0 10px 0 10px;
+					padding: 0 0 0 0;
+					border: none;
+					a{
+						font-family: Arial, sans-serif;
+						color: #FFFF;
+						font-size: 14px;
+						text-decoration: none;
+						border: none;
+						padding: 0px 0 0 0;
+						height: auto;
+						line-height: normal;
+					}&:hover{
+						a{
+							background: #4C535B;
+						}
+						span{
+							background: #4C535B;
+						}
+	
+					}//hover imagen
+				}
+				li#menu-425-1{
+					ul{
+						margin: -16px 0 0 0;
+						width: 273px !important;
+						background: #4C535B;
+						padding: 0 !important;
+						border-radius: 0;
+						li{
+							padding: 9px 0 9px 0;
+							border-bottom: 1px solid #888;
+							span{
+								padding: 0 0 0 0;
+							}
+							ul{
+								margin: 0 0 0 0;
+								width: 186px !important;
+								li{
+									a{
+										padding: 0 0 0 0;
+										height: auto;
+										line-height: normal;
+									}
+								}
+							}
+							span.sf-sub-indicator{
+								display: none;
+							}
+						}
+					}
+
+				}
+
+				li#menu-868-1{
+					a{
+						color:white;
+					}&:active{
+						a{
+							color:#FFFF;
+						}
+					}
+
+				}//eventos*/
+
+			}
+		}
+	}
+}

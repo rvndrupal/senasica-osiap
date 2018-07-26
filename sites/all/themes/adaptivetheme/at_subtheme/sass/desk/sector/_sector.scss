@@ -1,0 +1,315 @@
+.sector-estado{
+	#main-content{
+		margin-left: 0;
+		margin-right: 0;
+		#block-system-main{
+			#mini-panel-bloqueuno_sector,#mini-panel-clone_of_bloqueuno_sector,#mini-panel-bloquetres_sector{
+				.view-servicios-y-convocatoria-estado,.view-sectores-estados{
+					.views-field-field-imgizq{
+
+						img{
+						margin: 12px 0 0 10%;
+						}
+					}
+					.views-field-field-imgder{
+						margin: 0px 0 0 40%;
+					}
+
+					/*.view-redesvegetal{
+						margin: 0 0 0 8px;
+						position: absolute;
+						bottom: -382px;
+						[class*="views-row-"]{
+							display: inline-block;
+							margin: 0;
+							.views-field-field-imgred{
+								a{
+									img{
+										width: 25px !important;
+										height: 25px !important;
+
+									}
+								}
+							}
+						}
+					}*/
+
+					li.pager-current.odd {
+				    display: none;
+					}
+
+					.pager-next a {
+					    color: black;
+					    font-size: 21px;
+					}
+
+					.pager-previous a {
+					    color: black;
+					    font-size: 21px;
+					    margin: 0 0 0 11px;
+					}
+
+				}//izq
+
+				.panels-flexible-region-41-center,.panels-flexible-region-43-center,.panels-flexible-region-44-center{
+					max-width: 1001px;
+					[class*="views-row-"]{
+						.views-field-field-titulouno,.views-field-field-titulodos,.views-field-field-titulotres{
+							font-weight: bold;
+							font-size: 2.5em;
+							font-family: arial, sans-serif;
+							margin: 15px 0 0 0;
+						}
+						.views-field-field-subtitulo,.views-field-field-subtitulodos,.views-field-field-subtitulotres{
+
+							font-size: 1.2em;
+							font-family: arial, sans-serif;
+						}
+						.views-field-field-descripcion,.views-field-field-descripciondos,.views-field-field-descripciontres{
+
+							font-size: 1em;
+							font-family: arial, sans-serif;
+						}
+						.views-field-php{
+							.verde{
+							background-color: #6dad3b;
+							width: 98%;
+							height: 24px;
+							margin: 0px 0 20px 0%;
+							position: relative;
+
+							
+								span {
+								    font-size: 11px;
+								    margin: 0px 0 0 81%;
+								    color: #fff;
+
+								}
+								a{
+									.pdf{
+									    width: 59px;
+									    height: 55px;
+									    margin: -24px 0 0 6%;
+									    position: absolute;
+									}
+
+								}
+							}//verde
+
+							.rojo{
+							background-color: #89352A;
+							width: 98%;
+							height: 24px;
+							margin: 0px 0 20px 0%;
+							position: relative;
+
+							
+								span {
+								    font-size: 11px;
+								    margin: 0px 0 0 81%;
+								    color: #fff;
+
+								}
+								a{
+									.pdf{
+									    width: 59px;
+									    height: 55px;
+									    margin: -24px 0 0 6%;
+									    position: absolute;
+									}
+
+								}
+							}//rojo
+
+							.azul{
+							background-color: #4cb2e2;
+							width: 98%;
+							height: 24px;
+							margin: 0px 0 20px 0%;
+							position: relative;
+
+							
+								span {
+								    font-size: 11px;
+								    margin: 0px 0 0 81%;
+								    color: #fff;
+
+								}
+								a{
+									.pdf{
+									    width: 59px;
+									    height: 55px;
+									    margin: -24px 0 0 6%;
+									    position: absolute;
+									}
+
+								}
+							}//rojo
+						}//php
+
+					}
+
+					.pager--infinite-scroll{
+						li{
+						background-image: url("/sonora/sites/default/files/vermas/ver.png");
+						display: block;
+						background-repeat: no-repeat;
+						background-size: 110px 50px;
+						background-position: center center;
+
+						}
+						a{
+							font-size: 1em;
+							width: 110px;
+							height: 50px;
+							display: block;
+							margin: 0px auto;
+							color: black;
+
+						}
+					}
+
+					.view-redesvegetal{
+						margin: 0 0 14px -300px;
+				       position: absolute;
+
+						[class*="views-row-"]{
+							display: inline-block;
+							margin: 0;
+							.views-field-field-imgred{
+								a{
+									img{
+										width: 25px !important;
+										height: 25px !important;
+
+									}
+								}
+							}
+						}
+					}
+
+				}//centro
+
+				.panels-flexible-region-41-parallax,.panels-flexible-region-43-parallax{
+					.views-field.views-field-php{
+				margin: 40px 0 40px 0;
+				.field-content{
+					.imagen-parallax{
+						background-attachment: fixed;
+						background-repeat: no-repeat;
+						background-size: cover;
+						height: 450px;
+						margin: 0 auto;
+						max-width: 2440px;
+						overflow: hidden;
+						padding: 0;
+						position: relative;
+						width: 100% !important;
+							}
+						}
+					}
+				}//bottom
+
+
+
+
+				/*.region-three-25-50-25-third{
+					.views-row-1{
+						.views-field-field-imgder{
+							    margin: 10px 0 0 58%;
+						}
+					}
+				}*/
+			}//miniuno
+		}
+
+		//redes-sociales
+				.view-redes-sector{
+					    margin: 3% 0 0 10%;
+					[class*="views-row-"]{
+							display: inline-block;
+							margin: 0;
+							.views-field-field-imgredd{
+								a{
+									img{
+										width: 25px !important;
+										height: 25px !important;
+
+									}
+								}
+							}
+					}
+				}
+	}
+
+
+	/*banner*/
+		.view-id-banner_estados {
+	    position: absolute;
+	    margin: -159px 0 0 0 !important;
+	    	img{
+	    		height: 87px !important;
+	    	}
+		}
+
+
+
+		/*laptop*/
+		@media only screen and (min-width: 900px) and (max-width: 1420px)
+		{
+			.view-id-banner_estados {
+		    position: absolute;
+		    margin: -142px 0 0 0 !important;
+		    img{
+		    	height: 70px !important;
+		    }
+		    	
+		}
+
+		}
+
+
+}//general
+
+
+
+
+//redes globales
+.page-quienes-estado,.page-servicios-convocatoria{
+	.view-redes-sector{
+		    margin: 6% 0 0 6%;
+		[class*="views-row-"]{
+				display: inline-block;
+				margin: 0;
+				.views-field-field-imgredd{
+					a{
+						img{
+							width: 25px !important;
+							height: 25px !important;
+
+						}
+					}
+				}
+		}
+	}
+}
+
+
+.page-divulgacion-estado{
+	.view-redes-sector{
+		    margin: 34% 0 0 -12%;
+		[class*="views-row-"]{
+				display: inline-block;
+				margin: 0;
+				.views-field-field-imgredd{
+					a{
+						img{
+							width: 25px !important;
+							height: 25px !important;
+
+						}
+					}
+				}
+		}
+	}
+}

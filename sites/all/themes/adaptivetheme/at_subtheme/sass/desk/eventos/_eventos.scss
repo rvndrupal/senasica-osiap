@@ -1,0 +1,331 @@
+@mixin paralelogramo(){
+	width: 105px;
+    height: 24px;
+    background: #000000;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(-20deg);
+    display: inline-block;
+    a{
+    	text-decoration: none;
+        p{
+            color: #ffffff;
+            text-align: center;
+        }
+    }
+}
+
+.page-eventos-y-capacitaciones{
+	#main-content{
+		width: 1000px;		
+		display: block;
+		margin: 0 auto;
+		#block-eventosycapacitaciones-eventosycapacitaciones{
+		    .calendarioWrapper{
+		        .calendarioMain{
+		            .calendarioPrevMonth{
+		            	@include paralelogramo();
+
+		            }
+		            .calendarioNowMonth{
+		        		@include paralelogramo();
+		            }
+		            .calendarNextMonth{
+		        		@include paralelogramo();
+		            }
+		            .calendarAfterNextMonth{
+		        		@include paralelogramo();
+		            }
+		        }
+		        .calendarioMain .activo{
+		        	background:#747474;
+		        }
+		    }
+		}
+		#block-views-capacitaciones-estados-block{
+			h2.block-title{
+				border-bottom: 2px solid #000000;
+			    width: 900px;
+			    margin: 0 0 35px 0;
+			}
+		    .owl-controls.clickable{
+		    	.owl-buttons{
+		    		.owl-prev{
+		    			font-size: 0px;
+		    			width: 0;
+	    			    height: 0;
+	    			    background: transparent;
+	    			    border-radius: 0;
+	    			    border-right: 34px solid #869791;
+	    			    border-top: 24px solid transparent;
+	    			    border-bottom: 31px solid transparent;
+	    			    left: -67px;
+	    			    top: 0;
+	    			    position: absolute;
+		    		}
+		    		.owl-next{
+						font-size: 0px;
+						width: 0;
+					    height: 0;
+					    background: transparent;
+					    border-radius: 0;
+					    border-left: 34px solid #869791;
+					    border-top: 24px solid transparent;
+					    border-bottom: 31px solid transparent;
+					    right: -67px;
+				        top: 0;
+				        position: absolute;
+		    		}
+		    	}
+		    }
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+			#block-views-capacitaciones-estados-block{
+				h2.block-title{
+					border-bottom: 2px solid #000000;
+				    width: 900px;
+				    margin: 26px 0 35px 0;
+				}
+				
+					
+					.view-content{
+						width: 999px;
+						.owl-wrapper-outer{
+							.owl-wrapper{
+								.owl-item{
+									.views-field-php{
+										.field-content{
+											a{
+												img{
+													width: 300px;
+												    height: 200px;
+												}
+											}
+										}
+									}
+									.views-field-field-titulo-evento{
+										.field-content{
+											font-size: 1em;
+											font-weight: bold;
+											text-transform: uppercase;
+											font-family: arial, sans-serif;
+											height: auto;
+											overflow: hidden;
+											display: -webkit-box;
+											-webkit-line-clamp: 2;
+											-webkit-box-orient: vertical;
+											width: 300px;
+										}
+									}
+									.views-field-field-mes-evento,.views-field-field-ano-evento{
+										display: inline-block;
+										.field-content{
+											font-size: 0.9em;
+										    font-family: arial, sans-serif;
+										}
+									}
+								}
+							}
+						}
+					}
+				
+			    .owl-controls.clickable{
+			    	.owl-buttons{
+			    		.owl-prev{
+			    			font-size: 0px;
+			    			width: 0;
+		    			    height: 0;
+		    			    background: transparent;
+		    			    border-radius: 0;
+		    			    border-right: 34px solid #869791;
+		    			    border-top: 24px solid transparent;
+		    			    border-bottom: 31px solid transparent;
+		    			    left: -67px;
+		    			    top: 57px;
+		    			    position: absolute;
+			    		}
+			    		.owl-next{
+							font-size: 0px;
+							width: 0;
+						    height: 0;
+						    background: transparent;
+						    border-radius: 0;
+						    border-left: 34px solid #869791;
+						    border-top: 24px solid transparent;
+						    border-bottom: 31px solid transparent;
+						    right: -67px;
+					        top: 57px;
+					        position: absolute;
+			    		}
+			    	}
+			    }
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		#block-views-capacitaciones-estados-block-1{
+			h2.block-title{
+				border-bottom: 2px solid #000000;
+			    width: 900px;
+			    margin: 0 0 35px 0;
+			}
+			
+				
+				.view-content{
+					width: 999px;
+					.owl-wrapper-outer{
+						.owl-wrapper{
+							.owl-item{
+								.views-field-php{
+									.field-content{
+										a{
+											img{
+												width: 300px;
+											    height: 200px;
+											}
+										}
+									}
+								}
+								.views-field-title{
+									.field-content{
+										font-size: 1em;
+										font-weight: bold;
+										text-transform: uppercase;
+										font-family: arial, sans-serif;
+										height: auto;
+										overflow: hidden;
+										display: -webkit-box;
+										-webkit-line-clamp: 2;
+										-webkit-box-orient: vertical;
+										width: 300px;
+									}
+								}
+								.views-field-field-mes-capacitacion,.views-field-field-ano-capacitacion{
+									display: inline-block;
+									.field-content{
+										font-size: 0.9em;
+									    font-family: arial, sans-serif;
+									}
+								}
+							}
+						}
+					}
+				}
+			
+		    .owl-controls.clickable{
+		    	.owl-buttons{
+		    		.owl-prev{
+		    			font-size: 0px;
+		    			width: 0;
+	    			    height: 0;
+	    			    background: transparent;
+	    			    border-radius: 0;
+	    			    border-right: 34px solid #869791;
+	    			    border-top: 24px solid transparent;
+	    			    border-bottom: 31px solid transparent;
+	    			    left: -67px;
+	    			    top: 57px;
+	    			    position: absolute;
+		    		}
+		    		.owl-next{
+						font-size: 0px;
+						width: 0;
+					    height: 0;
+					    background: transparent;
+					    border-radius: 0;
+					    border-left: 34px solid #869791;
+					    border-top: 24px solid transparent;
+					    border-bottom: 31px solid transparent;
+					    right: -67px;
+				        top: 57px;
+				        position: absolute;
+		    		}
+		    	}
+		    }
+		}
+	}
+	.fancybox-overlay.fancybox-overlay-fixed{
+		.fancybox-wrap{
+			width: 800px !important;
+			height: auto !important;
+			position: absolute !important;
+			opacity: 1 !important;
+			overflow: visible !important;
+			.fancybox-skin{
+				width: 800px !important;
+				height: 450px !important;
+				.fancybox-outer{
+					.fancybox-inner{
+						width: 800px !important;
+						height: 450px !important;
+					}
+				}
+				.fancybox-title.fancybox-title-float-wrap{
+					.child{
+						display: inline-block;
+						    margin: 0 -100% -34px 0;
+						    padding: 2px 20px;
+						    background: transparent;
+						    background: rgba(0,0,0,0.8);
+						    -webkit-border-radius: 15px;
+						    -moz-border-radius: 15px;
+						    border-radius: 15px;
+						    text-shadow: 0 1px 2px #222;
+						    color: #FFF;
+						    font-weight: bold;
+						    line-height: 24px;
+						    text-transform: uppercase;
+						    height: auto;
+						    overflow: hidden;
+						    -webkit-line-clamp: 2;
+						    -webkit-box-orient: vertical;
+						    width: 800px;
+						    box-sizing: border-box;
+						    height: 54px;
+						    white-space: normal;
+					}
+				}
+			}
+		}
+	}
+}

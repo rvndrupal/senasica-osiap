@@ -1,0 +1,509 @@
+    /*
+.directorio {
+    #main-content {
+        background-color: rgba(128, 128, 128, 0.04);
+        .view-directorio {
+            margin: 186px 0 0 0;
+            .views-row-1 {
+                .views-field-field-imgsector {
+                    margin: -5% 0 0 80%;
+                    position: absolute;
+                }
+                .views-field-field-imgagricola {
+                    margin: -7% 0 0 26%;
+                    img {
+                        margin: 0 0 0 -20px;
+                    }
+                }
+                .views-field-field-texagricola {
+                    margin: -7% 0 12px 31%;
+                    overflow: hidden;
+                    width: 525px;
+                    height: 168px;
+                    /*aqui son los cambios
+                    font-family: arial, sans-serif;
+                }
+                .views-field-field-imgpesquero {
+                    margin: 3% 0 0 26%;
+                    img {
+                        margin: 0 0 0 -20px;
+                    }
+                }
+                .views-field-field-texpesquero {
+                    margin: -7% 0 0 31%;
+                    overflow: hidden;
+                    width: 525px;
+                    height: 168px;
+                    /*aqui son los cambios
+                    font-family: arial, sans-serif;
+                }
+                .views-field-field-imgpecuario {
+                    margin: 3% 0 0 26%;
+                    img {
+                        margin: 0 0 0 -20px;
+                    }
+                }
+                .views-field-field-texanimal {
+                    margin: -7% 0 0 31%;
+                    overflow: hidden;
+                    width: 525px;
+                    height: 168px;
+                    /*aqui son los cambios
+                    font-family: arial, sans-serif;
+                }
+            }
+        }
+        @media only screen and (min-width: 400px) and (max-width: 1520px) {
+            #page-title {
+                margin: 0px 0 -68px 26%;
+                position: relative;
+                display: block;
+                padding: 12px 0 0 0;
+                font-size: 2.5em;
+                font-family: arial, sans-serif;
+            }
+        }
+        @media only screen and (min-width: 1521px) and (max-width: 5000px) {
+            #page-title {
+                margin: 0px 0 -5px 29%;
+                position: relative;
+                display: block;
+                padding: 12px 0 0 0;
+                font-size: 2.5em;
+                font-family: arial, sans-serif;
+            }
+            /*
+            .view-directorio {
+                .views-row-1 {
+                    .views-field-field-imgagricola {
+                        margin: -6% 0 0 26%;
+                        position: absolute;
+                    }
+                    .views-field-field-texagricola {
+                        margin: -7% 0 12px 31%;
+                        overflow: hidden;
+                        width: 525px;
+                        height: 120px;
+                        font-family: arial, sans-serif;
+                    }
+                    .views-field-field-imgsector {
+                        margin: 2% 0 0 80%;
+                        position: relative;
+                    }
+                }
+            }
+
+
+} //pantalla
+
+}
+
+/* NUEVOS ESTILOS IMAGENES
+    .views-field-field-imgagricola {
+        a {
+            text-decoration: none;
+        }
+        img {
+            width: 55px;
+            height: 55px;
+            margin: 0 0 0 -17px;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        .vermas {
+            font-family: arial, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            margin: -7px 0 0 -16px;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .img-agricola {
+        a {
+            text-decoration: none;
+        }
+        img {
+            width: 55px;
+            height: 55px;
+            margin: 0 0 0 25%;
+        }
+        .vermas {
+            font-family: arial, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            margin: -8px 0 0 394px;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .img-pecuario {
+        a {
+            text-decoration: none;
+        }
+        img {
+            width: 55px;
+            height: 55px;
+            margin: 0 0 0 25%;
+        }
+        .vermas {
+            font-family: arial, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            margin: -4px 0 0 394px;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    //MEDIA QUERIS
+    @media only screen and (min-width: 1500px) {
+        .view-directorio {
+            margin: 158px 0 0 70px !important;
+            .views-row-1 {
+                .views-field-field-imgsector {
+                    margin: -2% 0 0 74% !important;
+                    position: absolute !important;
+                }
+                .views-field-field-imgagricola {
+                    margin: 0% 0 0 25% !important;
+                    width: 5%;
+                    img {
+                        margin: 0 0 0 -20px !important;
+                    }
+                }
+                .views-field-field-texagricola {
+                    margin: -7% 0 0 31%;
+                    overflow: hidden;
+                    width: 525px;
+                    height: 172px !important;
+                    font-family: arial, sans-serif;
+                }
+                .views-field-field-texpesquero {
+                    margin: -5% 0 14px 31% !important;
+                    overflow: hidden;
+                    width: 525px;
+                    height: 168px;
+                    //aqui son los cambios
+                    font-family: arial, sans-serif;
+                }
+                .views-field-field-texanimal {
+                    margin: -5% 0 0 31% !important;
+                    overflow: hidden;
+                    width: 525px;
+                    height: 168px;
+                    /*aqui son los cambios
+                    font-family: arial, sans-serif;
+                }
+            }
+        }
+        /*directorio
+
+}
+
+} //general global*/
+    
+    .directorio {
+        #main-content {
+            background-color: rgba(128, 128, 128, 0.04);
+            @media only screen and (min-width: 900px) and (max-width: 1450px) {
+                .view-directorio {
+                    margin: 186px 0 0 0;
+                    .views-row-1 {
+                        .views-field-field-imgsector {
+                            margin: -5% 0 0 80%;
+                            position: absolute;
+                        }
+                        //empieza agricola
+                        .views-field-field-texagricola {
+                            margin: -6% 0 12px 31%;
+                            overflow: hidden;
+                            width: 525px;
+                            height: 168px;
+                            font-family: arial, sans-serif;
+                        }
+                        .views-field-field-imgagricola {
+                            position: relative;
+                            margin: -7% 0 0 24%;
+                            img {
+                                width: 55px;
+                                height: 55px;
+                            }
+                            .vermas {
+                                font-family: arial, sans-serif;
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        //termina agricola
+                        //empieza acuicola
+                        .views-field-field-texpesquero {
+                            margin: -6% 0 12px 31%;
+                            overflow: hidden;
+                            width: 525px;
+                            height: 168px;
+                            font-family: arial, sans-serif;
+                        }
+                        .img-agricola {
+                            position: relative;
+                            margin: 3% 0 0 24%;
+                            img {
+                                width: 55px;
+                                height: 55px;
+                            }
+                            .vermas {
+                                font-family: arial, sans-serif;
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        //termina acuicola
+                        //empieza pecuario
+                        .views-field-field-texanimal {
+                            margin: -7% 0 12px 31%;
+                            overflow: hidden;
+                            width: 525px;
+                            height: 168px;
+                            font-family: arial, sans-serif;
+                        }
+                        .img-pecuario {
+                            position: relative;
+                            margin: 5% 0 0 24%;
+                            img {
+                                width: 55px;
+                                height: 55px;
+                            }
+                            .vermas {
+                                font-family: arial, sans-serif;
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        //termina pecuario
+                    } //row
+                } //directorio
+                #page-title {
+                    margin: 0px 0 -68px 26%;
+                    position: relative;
+                    display: block;
+                    padding: 12px 0 0 0;
+                    font-size: 2.5em;
+                    font-family: arial, sans-serif;
+                }
+            } //media hasta 1450
+            //media 1451
+            @media only screen and (min-width: 1451px) and (max-width: 1650px) {
+                .view-directorio {
+                    margin: 186px 0 0 0;
+                    .views-row-1 {
+                        .views-field-field-imgsector {
+                            margin: -5% 0 0 80%;
+                            position: absolute;
+                        }
+                        //empieza agricola
+                        .views-field-field-texagricola {
+                            margin: -6% 0 12px 31%;
+                            overflow: hidden;
+                            width: 525px;
+                            height: 168px;
+                            font-family: arial, sans-serif;
+                        }
+                        .views-field-field-imgagricola {
+                            position: relative;
+                            margin: -5% 0 0 25%;
+                            img {
+                                width: 55px;
+                                height: 55px;
+                            }
+                            .vermas {
+                                font-family: arial, sans-serif;
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        //termina agricola
+                        //empieza acuicola
+                        .views-field-field-texpesquero {
+                            margin: -6% 0 12px 31%;
+                            overflow: hidden;
+                            width: 525px;
+                            height: 168px;
+                            font-family: arial, sans-serif;
+                        }
+                        .img-agricola {
+                            position: relative;
+                            margin: 3% 0 0 25%;
+                            img {
+                                width: 55px;
+                                height: 55px;
+                            }
+                            .vermas {
+                                font-family: arial, sans-serif;
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        //termina acuicola
+                        //empieza pecuario
+                        .views-field-field-texanimal {
+                            margin: -6% 0 12px 31%;
+                            overflow: hidden;
+                            width: 525px;
+                            height: 168px;
+                            font-family: arial, sans-serif;
+                        }
+                        .img-pecuario {
+                            position: relative;
+                            margin: 5% 0 0 25%;
+                            img {
+                                width: 55px;
+                                height: 55px;
+                            }
+                            .vermas {
+                                font-family: arial, sans-serif;
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        //termina pecuario
+                    } //row
+                } //directorio
+                #page-title {
+                    margin: 0px 0 -68px 26%;
+                    position: relative;
+                    display: block;
+                    padding: 12px 0 0 0;
+                    font-size: 2.5em;
+                    font-family: arial, sans-serif;
+                }
+            } //media hasta 1650
+            //media hasta 3000
+            @media only screen and (min-width: 1651px) and (max-width: 3000px) {
+                .view-directorio {
+                    margin: 186px 0 0 0;
+                    .views-row-1 {
+                        .views-field-field-imgsector {
+                            margin: -5% 0 0 80%;
+                            position: absolute;
+                        }
+                        //empieza agricola
+                        .views-field-field-texagricola {
+                            margin: -6% 0 12px 31%;
+                            overflow: hidden;
+                            width: 525px;
+                            height: 168px;
+                            font-family: arial, sans-serif;
+                        }
+                        .views-field-field-imgagricola {
+                            position: relative;
+                            margin: -5% 0 0 25%;
+                            img {
+                                width: 55px;
+                                height: 55px;
+                            }
+                            .vermas {
+                                font-family: arial, sans-serif;
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        //termina agricola
+                        //empieza acuicola
+                        .views-field-field-texpesquero {
+                            margin: -5% 0 12px 31%;
+                            overflow: hidden;
+                            width: 525px;
+                            height: 168px;
+                            font-family: arial, sans-serif;
+                        }
+                        .img-agricola {
+                            position: relative;
+                            margin: 3% 0 0 25%;
+                            img {
+                                width: 55px;
+                                height: 55px;
+                            }
+                            .vermas {
+                                font-family: arial, sans-serif;
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        //termina acuicola
+                        //empieza pecuario
+                        .views-field-field-texanimal {
+                            margin: -6% 0 12px 31%;
+                            overflow: hidden;
+                            width: 525px;
+                            height: 168px;
+                            font-family: arial, sans-serif;
+                        }
+                        .img-pecuario {
+                            position: relative;
+                            margin: 5% 0 0 25%;
+                            img {
+                                width: 55px;
+                                height: 55px;
+                            }
+                            .vermas {
+                                font-family: arial, sans-serif;
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        //termina pecuario
+                    } //row
+                } //directorio
+                #page-title {
+                    margin: 0px 0 -68px 26%;
+                    position: relative;
+                    display: block;
+                    padding: 12px 0 0 0;
+                    font-size: 2.5em;
+                    font-family: arial, sans-serif;
+                }
+            } //media hasta 3000
+        } //main
+    } //global

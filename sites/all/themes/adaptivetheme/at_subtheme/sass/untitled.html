@@ -1,0 +1,59 @@
+<?php
+//dpm($data);
+if ($data->field_field_tipo[0]['raw']['value']=="Imagen"){
+	echo '<a href="'.file_create_url($data->field_field_imagen_capacitacion[0]['rendered']['#item']['uri']).'" title="'.$data->field_field_imagen_capacitacion[0]['raw']['title'].'" class="fancybox" data-fancybox-group="gallery-post-38">
+			<img src="'. file_create_url($data->field_field_imagen_capacitacion[0]['raw']['uri']) .'">
+		</a>';
+}
+
+if ($data->field_field_tipo[0]['raw']['value']=="Video"){
+	$node=node_load($data->nid); 
+	$node=node_load($data->nid); 
+	//dpm($node);
+	$url=file_create_url($node->field_video_capacitacion['und'][0]['video_url']);
+	//dpm($url);
+
+	$cortar1=substr($url,0,24);
+	$cortar2=substr($url,32,100);
+	$em="embed/";
+	$url2=$cortar1.$em.$cortar2;
+	$img=file_create_url($node->field_video_capacitacion['und'][0]['thumbnail_path']);
+
+
+	//dpm($cortar1);
+	//dpm($cortar2);
+	//dpm($url2);
+	echo '<a href="'.$url2.'" title="'.$data->node_title.'" class="various fancybox.iframe">
+			<img src="'.$img.'">
+		</a>';
+
+	
+
+	
+}
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

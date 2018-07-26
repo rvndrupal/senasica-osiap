@@ -1,0 +1,4 @@
+name=sectores
+description = Agrega estados y sector
+core=7.x
+package = senasica

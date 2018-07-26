@@ -1,0 +1,277 @@
+.divulgacion_estado,
+.page-divulgacion-agricola,
+.page-divulgacion-pesquero,
+.page-divulgacion-pecuario {
+    #main-content {
+        #block-system-main {
+            .view-divulgaci-n-estado {
+                width: 950px;
+                display: block;
+                margin: 0 auto;
+                .views-row-1 {
+                    .views-field-title {
+                        text-transform: uppercase;
+                        display: block;
+                        position: relative;
+                        font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
+                        color: black;
+                        margin: 0px 0 22px 0;
+                    }
+                }
+                .views-field-field-video-divulgacion {
+                    //display: inline-block;
+                    //	float: left;
+                    iframe {
+                        width: 500px;
+                        height: 280px;
+                    }
+                }
+                .img1 {
+                    float: right;
+                    margin: -286px 0 0 0;
+                    .titulo {
+                        font-size: 24px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        margin: 0 0 15px 0;
+                        width: 300px;
+                        overflow: hidden;
+                        height: 49px;
+                        line-height: 25px;
+                    }
+                }
+                .img2 {
+                    float: right;
+                    margin: 0px 0 0 0;
+                    .titulo {
+                        font-size: 24px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        margin: 0 0 15px 0;
+                        width: 300px;
+                        overflow: hidden;
+                        height: 49px;
+                        line-height: 25px;
+                    }
+                }
+                .views-field-nothing {
+                    .titulo-doc {
+                        font-size: 24px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        margin: 15px 0 -28px 0;
+                        width: 300px;
+                        overflow: hidden;
+                        height: 49px;
+                        line-height: 25px;
+                    }
+                }
+                .views-field.views-field-php-1 {
+                    display: inline-block;
+                    width: 500px;
+                    height: auto;
+                    float: left;
+                    margin: 40px 0 0px 0;
+                    .views-label.views-label-php-2 {
+                        border-bottom: 2px solid #000000;
+                        font-size: 24px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        width: 100%;
+                        display: block;
+                    }
+                    .field-content {
+                        max-height: 230px;
+                        overflow-y: scroll;
+                        box-sizing: border-box;
+                        display: block;
+                        overflow-x: hidden;
+                        .file {
+                            margin: 10px 0 10px 0;
+                            a {
+                                color: #fff;
+                                text-decoration: none;
+                                display: block;
+                                .filerow {
+                                    .filename {
+                                        display: inline-block;
+                                        padding: 0 0 0 10px;
+                                    }
+                                    .fileicon {
+                                        display: inline-block;
+                                        float: right;
+                                        img {
+                                            display: block;
+                                            position: relative;
+                                            clear: both;
+                                            height: 36px;
+                                            width: 36px;
+                                            margin: -11px 0 0 0;
+                                        }
+                                    }
+                                }
+                                &.agricola {
+                                    background-color: #6DAD3B;
+                                }
+                                &.pesquero {
+                                    background-color: #4CB2E2;
+                                }
+                                &.pecuario {
+                                    background-color: #89352A;
+                                }
+                            }
+                        }
+                    }
+                }
+            } //views
+        }
+    }
+    /*#content{
+				width:950px;
+				display: block;
+				margin: 0 auto;
+				#block-system-main{
+					.view-divulgacionagricola{
+						[class*="views-field-field-video-"]{
+							display: inline-block;
+							float: left;
+							iframe{
+								width: 500px;
+								height: 280px;
+								}
+							}
+						.views-field.views-field-php{
+							width: 280px;
+							display: inline-block;
+							float: right;
+							border-bottom: 2px solid #000000;
+							padding: 0 0 20px 0;
+							.sb-image.sb-individual{
+								.titulo{
+									font-size: 24px;
+									font-weight: bold;
+									text-transform: uppercase;
+								}
+								a{
+									img{
+										width: 280px;
+										height: 210px;
+									}
+								}
+							}
+						}
+						.views-field.views-field-php-2{
+							display: inline-block;
+							width: 500px;
+							height: auto;
+							float: left;
+							.views-label.views-label-php-2{
+								border-bottom: 2px solid #000000;
+								font-size: 24px;
+								font-weight: bold;
+								text-transform: uppercase;
+								width: 100%;
+								display: block;
+							}
+							.field-content{
+							  height: 230px;
+						      overflow: scroll;
+						      box-sizing: border-box;
+						      display: block;
+							  .file{
+							  	margin: 10px 0 10px 0;
+							  	a{
+							  		color: #fff;
+							  		text-decoration: none;
+							  		display: block;
+							  		.filerow{
+							  			.filename{
+							  				display: inline-block;
+							  				padding: 0 0 0 10px;
+							  			}
+							  			.fileicon{
+							  				display: inline-block;
+							  				float: right;
+							  				img{
+							  					display: block;
+							  					position: relative;
+							  					clear: both;
+							  					height: 36px;
+							  					width: 36px;
+							  					margin: -11px 0 0 0;
+							  				}
+							  			}
+							  		}&.agricola{
+							  		background-color: #6DAD3B;
+							  	}&.pesquero{
+							  		background-color: #4CB2E2;
+							  	}&.pecuario{
+							  		background-color: #89352A;
+							  	}
+							  	}
+							  }
+							}
+						}
+						.views-field.views-field-php-1{
+							width: 280px;
+							display: inline-block;
+							float: right;
+							.sb-image.sb-individual{
+								.titulo{
+									font-size: 24px;
+									font-weight: bold;
+									text-transform: uppercase;
+								}
+								a{
+									img{
+										width: 280px;
+										height: 210px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.fancybox-wrap{
+		width: 800px !important;
+		height: 450px !important;
+		.fancybox-skin{
+			width: 800px !important;
+			height: 450px !important;
+			.fancybox-outer{
+				.fancybox-inner{
+					width: 800px !important;
+					height: 450px !important;
+					img{
+						width: 800px !important;
+						height: 450px !important;
+					}
+				}
+			}
+		}
+
+	}*/
+    /*banner*/
+    .view-id-banner_estados {
+        position: absolute;
+        margin: -159px 0 0 -358px;
+        width: 1687px;
+        img {
+            height: 87px;
+        }
+    }
+    /*laptop*/
+    @media only screen and (min-width: 900px) and (max-width: 1420px) {
+        .view-id-banner_estados {
+            position: absolute;
+            margin: -142px 0 0 -201px !important;
+            width: 1356px !important;
+            img {
+                height: 70px !important;
+            }
+        }
+    }
+}

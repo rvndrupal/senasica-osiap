@@ -1,0 +1,211 @@
+<?php
+/**
+ * Contador de caracteres de los titulos
+ */
+
+
+/**
+ * Implements hook_form_alter().
+ */
+	
+error_reporting(E_ALL ^ E_NOTICE);
+
+function sectores_form_alter(&$form, &$form_state, $form_id) {
+	//dsm($form_id);
+	//drupal_add_js('sites/all/modules/contador_caracteres/js/script.js');
+	//dpm($form);
+$estado="";
+$sector="";
+$estado2="";
+$estado_nombre="";
+$rol_admin="";
+
+	global $user;
+	$usuario=user_load($user->uid);		
+	//dpm($usuario);
+	
+	$rol_admin=$usuario->roles[3];
+
+	$rol_enlace=$usuario->roles[14];
+	$rol_super=$usuario->roles[9];
+	$rol_coor=$usuario->roles[7];
+	
+	
+
+	
+	$estado=$usuario->field_seleccionar_estado['und'][0]['tid'];
+	
+	$sector=$usuario->field_seleccionar_sector['und'][0]['value'];
+	
+	$estado2=taxonomy_term_load($estado);
+
+	$estado_nombre=$estado2->name;
+	//dpm($estado_nombre);
+	//$estadook="";
+	
+	if($estado_nombre=="Baja California Norte")
+	{
+		$estadook="Baja_California_Norte";
+	}
+	elseif($estado_nombre=="Baja California Sur")
+	{
+
+		$estadook="Baja_California_Sur";
+		
+	}	
+	elseif($estado_nombre=="Estado de México")
+	{
+		$estadook="Estado_de_México";
+	}
+	elseif($estado_nombre=="Michoacán")
+	{
+		$estadook="Michoacán";
+	}
+	elseif($estado_nombre=="Nuevo León")
+	{
+		$estadook="Nuevo_León";
+	}
+	elseif($estado_nombre=="Querétaro")
+	{
+		$estadook="Querétaro";
+	}
+	elseif($estado_nombre=="Quintana Roo")
+	{
+		$estadook="Quintana_Roo";
+	}
+	elseif($estado_nombre=="San Luis Potosí")
+	{
+		$estadook="San_Luis_Potosí";
+	}
+	elseif($estado_nombre=="Yucatán")
+	{
+		$estadook="Yucatán";
+	}
+	else{
+		$estadook=$estado2->name;
+	}
+
+	
+	
+	
+	if($rol_admin!="administrator" and $rol_enlace!="Enlace" and $rol_coor!="Coordinador" and $rol_super!="SuperUsuario")
+	{
+		
+	
+		if($form_id=='vegetal_node_form' or $form_id=='quienes_estado_node_form' or $form_id=='redes_sector_node_form' or $form_id=='servicio_convocatoria_estado_node_form' or
+			$form_id=='divulgacion_estado_node_form' or $form_id=='eventos_capacitacion_estados_node_form')
+		{
+		
+		
+
+		$form['field_sector']['und']['#default_value']=$sector;
+		$form['field_sector']['#disabled']=true;
+
+		$form['field_selecciona_estados']['und']['#default_value']=$estadook;
+		$form['field_selecciona_estados']['#disabled']=true;
+		
+	
+		}
+
+	}//roll admin y enlace
+
+	
+	
+
+
+
+		if($rol_admin!="administrator" and $rol_enlace=="Enlace")
+	{
+		
+	
+		if($form_id=='vegetal_node_form' or $form_id=='quienes_estado_node_form' or $form_id=='redes_sector_node_form' or $form_id=='servicio_convocatoria_estado_node_form' or
+			$form_id=='divulgacion_estado_node_form' or $form_id=='eventos_capacitacion_estados_node_form')
+		{
+		
+		
+		$form['field_sector']['#disabled']=false;
+		$form['field_selecciona_estados']['#disabled']=false;
+
+		
+	
+		}
+
+	}//roll enlace
+
+
+//Coordinador
+
+
+	
+	if($rol_admin!="administrator" and $rol_coor=="Coordinador")
+	{
+		
+	
+		if($form_id=='vegetal_node_form' or $form_id=='quienes_estado_node_form' or $form_id=='redes_sector_node_form' or $form_id=='servicio_convocatoria_estado_node_form' or
+			$form_id=='divulgacion_estado_node_form' or $form_id=='eventos_capacitacion_estados_node_form')
+		{
+		
+		
+		$form['field_sector']['#disabled']=false;
+		$form['field_selecciona_estados']['#disabled']=false;
+
+		
+	
+		}
+
+	}//roll coordinador
+
+//super usuario
+
+	if($rol_admin!="administrator" and $rol_super=="SuperUsuario")
+	{
+		
+	
+		if($form_id=='vegetal_node_form' or $form_id=='quienes_estado_node_form' or $form_id=='redes_sector_node_form' or $form_id=='servicio_convocatoria_estado_node_form' or
+			$form_id=='divulgacion_estado_node_form' or $form_id=='eventos_capacitacion_estados_node_form')
+		{
+		
+		$form['field_sector']['#disabled']=false;
+		$form['field_selecciona_estados']['#disabled']=false;
+
+		
+	
+		}
+
+	}//roll superusuario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	else
+	{
+		$rol_admin===null;
+	}
+	
+
+	return $form;
+
+	
+  
+}

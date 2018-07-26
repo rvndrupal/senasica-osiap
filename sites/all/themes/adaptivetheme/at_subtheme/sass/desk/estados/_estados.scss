@@ -1,0 +1,82 @@
+.estados{
+	#block-system-main{
+		.panels-flexible-7,.panels-flexible-8,.panels-flexible-9 
+		,.panels-flexible-10,.panels-flexible-11,.panels-flexible-12{
+			.panels-flexible-region-first.sectores,.sectores{
+				.views-row-1{
+					.views-field-nothing,.views-field-nothing-1{
+						.titulo{
+							font-size: 1.6em;
+						    font-weight: bold;
+						    margin: 10% 0 0 8%;
+						}
+					}
+
+					.consectores{
+						img{
+							display: inline-block;
+							vertical-align: top;
+							margin: 6% 0 0 4%;
+
+						}
+						a{
+							display: inline-block;
+							vertical-align: top;
+							text-decoration: none;
+							color: #000000;
+							margin: 105px 0 0 0px;
+						}
+					}
+				}
+			}//izq
+
+			.panels-flexible-region-7-center{
+				    margin: 27px 0 0 0px;
+
+			}//centro
+		}//panels
+
+		.views-field-field-imgsector{
+			margin: 0px 0 0 -11%;
+		}
+	
+
+	
+
+
+
+
+	/*mapa*/
+	.mapa{
+		#panels-ipe-regionid-mapa{
+			    margin: 13% 0 0 -19%;
+			.pane-block-3{
+				
+				iframe{
+					width: 100%;
+					    margin: 0% 0 0 0%;
+					    position: absolute;
+					    height: 431px;
+						h1 {
+				   		 font-size: 19px;
+						}
+					.maparea2{
+						.map{
+							.zoomReset{
+								display: none;
+							}
+							.zoomIn{
+								display:none;
+							}
+							.zoomOut{
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	/*MAPA ESTILOS*/
+	}//main
+}

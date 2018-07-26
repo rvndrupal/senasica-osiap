@@ -1,0 +1,1057 @@
+.cpanel {
+    .panels-flexible-39-inside {
+        margin: 0 0 0 15px;
+    }
+    .panels-flexible-region-39-center {
+        background: rgba(128, 128, 128, 0.32);
+        width: 1200px;
+        height: 1170px;
+        margin: 11px 0 0 0;
+        .block-content {
+            .view-foto-user {
+                margin: -80px 0 22px 1000px;
+                position: relative;
+                z-index: 100;
+            }
+            .bienvenidos {
+                font-size: 36px;
+                margin: 12px 0 0 -12px;
+                color: #eae6e6;
+                background: #ad0c00;
+                width: 100%;
+                padding: 19px 0 11px 18px;
+                height: 40px;
+                p {
+                    margin: -38px 0 0 65px;
+                    font-size: initial;
+                    font-size: 38px;
+                }
+            }
+            .slider_panel {
+                background: rgba(11, 107, 21, 0.92);
+                width: 124px;
+                height: 112px;
+                font-size: 47px;
+                padding: 8px 0 0 59px;
+                color: white;
+                margin: 0 0 0 70px;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -79px;
+                    position: absolute;
+                    text-decoration: none;
+                    position: absolute;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -32px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .redes {
+                background: rgba(11, 61, 107, 0.92);
+                width: 124px;
+                height: 112px;
+                font-size: 47px;
+                padding: 8px 0 0 59px;
+                color: white;
+                margin: -134px 0 0 350px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -94px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -32px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .quienes_somos {
+                background: rgba(107, 11, 80, 0.92);
+                width: 124px;
+                height: 112px;
+                font-size: 47px;
+                padding: 8px 0 0 59px;
+                color: white;
+                margin: -150px 0 0 641px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -85px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -32px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .directorio {
+                background: rgb(181, 17, 59);
+                width: 124px;
+                height: 112px;
+                font-size: 47px;
+                padding: 8px 0 0 59px;
+                color: white;
+                margin: -19px 0 0 71px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -75px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -32px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .noticias_pie {
+                background: #1131b5;
+                width: 124px;
+                height: 112px;
+                font-size: 47px;
+                padding: 8px 0 0 59px;
+                color: white;
+                margin: -33px 0 0 350px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -79px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -32px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .buscarpanel {
+                background: #065e88;
+                width: 100px;
+                height: 148px;
+                font-size: 57px;
+                padding: 36px 0 0 46px;
+                color: white;
+                margin: 105px 0 0 906px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                a {
+                    font-size: 24px;
+                    margin: 81px 0 0px -61px;
+                    position: absolute;
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -75px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -32px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .moviuno {
+                background: rgba(11, 107, 21, 0.92);
+                width: 95px;
+                height: 103px;
+                font-size: 47px;
+                padding: 8px 0 0 47px;
+                color: white;
+                margin: 150px 0 0 70px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -84px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -44px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .movidos {
+                background: rgba(11, 61, 107, 0.92);
+                width: 116px;
+                height: 112px;
+                font-size: 47px;
+                padding: 8px 0 0 68px;
+                color: white;
+                margin: 136px 0 0 72px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -80px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -28px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .movitres {
+                background: rgba(107, 11, 80, 0.92);
+                width: 116px;
+                height: 112px;
+                font-size: 47px;
+                padding: 8px 0 0 68px;
+                color: white;
+                margin: 121px 0 0 346px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -80px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -28px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .movicuatro {
+                background: rgb(181, 17, 59);
+                width: 116px;
+                height: 112px;
+                font-size: 47px;
+                padding: 8px 0 0 68px;
+                color: white;
+                margin: 104px 0 0 641px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -84px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -32px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .movicinco {
+                background: #02c3be;
+                width: 116px;
+                height: 112px;
+                font-size: 47px;
+                padding: 8px 0 0 68px;
+                color: white;
+                margin: 227px 0 0 73px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -84px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -32px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .moviseis {
+                background: #1131b5;
+                width: 116px;
+                height: 112px;
+                font-size: 47px;
+                padding: 8px 0 0 68px;
+                color: white;
+                margin: 212px 0 0 345px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -84px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -32px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .movisiete {
+                background: rgba(11, 61, 107, 0.92);
+                width: 116px;
+                height: 112px;
+                font-size: 47px;
+                padding: 8px 0 0 68px;
+                color: white;
+                margin: 196px 0 0 641px;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+                .fa.fa-plus-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 58px 0 0 -84px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+                .fa.fa-pencil-square {
+                    font-size: 16px;
+                    color: white;
+                    margin: 33px 0 0 -32px;
+                    position: absolute;
+                    text-decoration: none;
+                    &:hover {
+                        color: yellow;
+                    }
+                }
+            }
+            .titulomov {
+                position: absolute;
+                margin: 111px 0 0px 69px;
+                color: #eae6e6;
+                background: #ad0c00;
+                padding: 5px;
+                width: 195px;
+                height: 20px;
+                font-size: initial;
+            }
+        }
+        //SECCIONES POR ESTADOS
+        .tituloestados {
+            position: absolute;
+            margin: 336px 0 0px 69px;
+            color: #eae6e6;
+            background: #ad0c00;
+            padding: 5px;
+            width: 222px;
+            height: 20px;
+            font-size: initial;
+        }
+        .quienes_estado {
+            background: rgba(107, 11, 80, 0.92);
+            width: 116px;
+            height: 112px;
+            font-size: 47px;
+            padding: 8px 0 0 68px;
+            color: white;
+            margin: 382px 0 0 70px;
+            position: absolute;
+            &:hover {
+                color: yellow;
+            }
+            .fa.fa-plus-square {
+                font-size: 16px;
+                color: white;
+                margin: 58px 0 0 -98px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .fa.fa-pencil-square {
+                font-size: 16px;
+                color: white;
+                margin: 33px 0 0 -32px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+        .sector_estado {
+            background: rgba(11, 61, 107, 0.92);
+            width: 116px;
+            height: 112px;
+            font-size: 47px;
+            padding: 8px 0 0 68px;
+            color: white;
+            margin: 366px 0 0 345px;
+            position: absolute;
+            &:hover {
+                color: yellow;
+            }
+            .fa.fa-plus-square {
+                font-size: 16px;
+                color: white;
+                margin: 58px 0 0 -89px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .fa.fa-pencil-square {
+                font-size: 16px;
+                color: white;
+                margin: 33px 0 0 -37px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+        .servicios_estado {
+            background: #b5113b;
+            width: 116px;
+            height: 112px;
+            font-size: 47px;
+            padding: 8px 0 0 68px;
+            color: white;
+            margin: 350px 0 0 643px;
+            position: absolute;
+            &:hover {
+                color: yellow;
+            }
+            .fa.fa-plus-square {
+                font-size: 16px;
+                color: white;
+                margin: 58px 0 0 -92px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .fa.fa-pencil-square {
+                font-size: 16px;
+                color: white;
+                margin: 33px 0 0 -37px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+        .divulgacion_estado {
+            background: rgba(11, 107, 21, 0.92);
+            width: 116px;
+            height: 112px;
+            font-size: 47px;
+            padding: 8px 0 0 68px;
+            color: white;
+            margin: 481px 0 0 68px;
+            position: absolute;
+            &:hover {
+                color: yellow;
+            }
+            .fa.fa-plus-square {
+                font-size: 16px;
+                color: white;
+                margin: 58px 0 0 -107px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .fa.fa-pencil-square {
+                font-size: 16px;
+                color: white;
+                margin: 33px 0 0 -45px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+        .eventos_estados {
+            background: rgba(11, 107, 21, 0.92);
+            width: 124px;
+            height: 112px;
+            font-size: 47px;
+            padding: 8px 0 0 59px;
+            color: white;
+            margin: -49px 0 0 641px;
+            position: absolute;
+            &:hover {
+                color: yellow;
+            }
+            .fa.fa-plus-square {
+                font-size: 16px;
+                color: white;
+                margin: 58px 0 0 -116px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .fa.fa-pencil-square {
+                font-size: 16px;
+                color: white;
+                margin: 33px 0 0 -54px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+        .redes_estado {
+            background: #1131b5;
+            width: 116px;
+            height: 112px;
+            font-size: 47px;
+            padding: 8px 0 0 68px;
+            color: white;
+            margin: 465px 0 0 345px;
+            position: absolute;
+            &:hover {
+                color: yellow;
+            }
+            .fa.fa-plus-square {
+                font-size: 16px;
+                color: white;
+                margin: 58px 0 0 -92px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .fa.fa-pencil-square {
+                font-size: 16px;
+                color: white;
+                margin: 33px 0 0 -30px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+        /*.usuarios_global{
+						background: #02c3be;
+						    width: 116px;
+						    height: 112px;
+						    font-size: 47px;
+						    padding: 8px 0 0 68px;
+						    color: white;
+						    margin: 450px 0 0 700px;
+						    position: absolute;
+					        &:hover {
+						        color:yellow;
+						    }
+
+					    	.fa.fa-plus-square {
+					    	    font-size: 16px;
+				    	        color: white;
+				    	        margin: 58px 0 0 -80px;
+				    	        position: absolute;
+				    	        text-decoration: none;
+				    	        &:hover {
+						        color:yellow;
+						    	}
+					    	}
+					    	.fa.fa-pencil-square{
+					    		font-size: 16px;
+				    	        color: white;
+				    	        margin: 33px 0 0 -33px;
+				    	        position: absolute;
+				    	        text-decoration: none;
+				    	        &:hover {
+						        color:yellow;
+						    	}
+					    	}
+
+			}*/
+        .usuarios_global {
+            background: #02c3be;
+            width: 116px;
+            height: 112px;
+            font-size: 47px;
+            padding: 8px 0 0 68px;
+            color: white;
+            margin: 449px 0 0 643px;
+            position: absolute;
+            &:hover {
+                color: yellow;
+            }
+            .fa.fa-plus-square {
+                font-size: 16px;
+                color: white;
+                margin: 58px 0 0 -76px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .fa.fa-pencil-square {
+                font-size: 16px;
+                color: white;
+                margin: 79px 0 0 -76px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+        .sesion_estados {
+            background: #b5113b;
+            width: 95px;
+            height: 103px;
+            font-size: 47px;
+            padding: 8px 0 0 49px;
+            color: white;
+            margin: 110px 0 0 771px;
+            position: absolute;
+            &:hover {
+                color: yellow;
+            }
+            .fa.fa-times-circle {
+                font-size: 16px;
+                color: white;
+                margin: 58px 0 0 -80px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .fa.fa-pencil-square {
+                font-size: 16px;
+                color: white;
+                margin: 33px 0 0 -33px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+        /*splash ventana modal*/
+        .modal {
+            background: rgb(181, 17, 59);
+            width: 124px;
+            height: 112px;
+            font-size: 47px;
+            padding: 8px 0 0 59px;
+            color: white;
+            margin: -452px 0 0 886px;
+            position: absolute;
+            &:hover {
+                color: yellow;
+            }
+            .fa.fa-plus-square {
+                font-size: 16px;
+                color: white;
+                margin: 58px 0 0 -79px;
+                position: absolute;
+                text-decoration: none;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .fa.fa-pencil-square {
+                font-size: 16px;
+                color: white;
+                margin: 33px 0 0 -32px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+        /*Banner por estado*/
+        .bannerEstado {
+            background: rgba(11, 61, 107, 0.92);
+            width: 124px;
+            height: 112px;
+            font-size: 47px;
+            padding: 8px 0 0 59px;
+            color: white;
+            margin: -319px 0 0 886px;
+            position: absolute;
+            &:hover {
+                color: yellow;
+            }
+            .fa.fa-plus-square {
+                font-size: 16px;
+                color: white;
+                margin: 58px 0 0 -79px;
+                position: absolute;
+                text-decoration: none;
+                position: absolute;
+                &:hover {
+                    color: yellow;
+                }
+            }
+            .fa.fa-pencil-square {
+                font-size: 16px;
+                color: white;
+                margin: 33px 0 0 -32px;
+                position: absolute;
+                text-decoration: none;
+                &:hover {
+                    color: yellow;
+                }
+            }
+        }
+    } //panel central
+    //izq
+    .regizq {
+        background-color: black;
+        height: 1170px;
+        width: 100%;
+        .view-header {
+            margin: 11px 0 0 34px;
+            .fa.fa-map-marker {
+                font-size: 39px;
+                color: white;
+            }
+        }
+        .form-item-name {
+            #edit-name {
+                width: 185px;
+                color: black;
+                background-color: white;
+                border-radius: 14px;
+                height: 26px;
+                margin: 0 0 0 18px;
+            }
+        }
+        label {
+            display: none;
+        }
+        [class*="views-row-"] {
+            .views-field-php {
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 20px;
+                    margin: 0 0 0 21px;
+                }
+            }
+        }
+    } //izq
+} //global
+.rol_user {
+    #admin-menu {
+        display: none;
+    }
+    #block-block-40 {
+        margin: 0 0 2px 0;
+    }
+    .menu_global {
+        background: #484848;
+        width: 100%;
+        height: 31px;
+        top: 0px;
+        position: absolute;
+        margin: 0 0 0 -10px;
+        a.fa.fa-home {
+            color: white;
+            margin: 8px 0 0 8px;
+        }
+        a.fa.fa-cogs {
+            color: white;
+            margin: 8px 0 0 15px;
+        }
+        a.fa.fa-user-times {
+            color: white;
+            margin: 8px 0 0 690px;
+        }
+        a.fa.fa-user-circle {
+            color: white;
+            margin: 8px 0 0 1%;
+        }
+        a.fa.fa-question-circle {
+            color: white;
+            margin: 8px 0 0 1%;
+        }
+    } //menu global
+} //roll
+.rol_user {
+    #block-block-41 {
+        .menu_global {
+            a.fa.fa-user-times {
+                color: white;
+                margin: 8px 0 0 522px;
+            }
+        }
+    }
+}
+
+//Inisio de sesion
+.page-user {
+    #main-content {
+        #tasks {
+            li {
+                a {
+                    display: none;
+                }
+                .active {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+//videos de ayuda
+.ayuda {
+    .views-exposed-form {
+        margin: 0 0 0 7%;
+    }
+    .view-content {
+        text-align: center;
+        margin: 23px 0 0px 0;
+        .views-field-title {
+            text-align: left;
+            margin: 0 0 2px 93px;
+            font-size: 20px;
+            font-family: initial;
+            width: 1162px;
+        }
+    }
+    #page-title {
+        margin: 0 0 0 7%;
+        font-size: 37px;
+    }
+}
+
+#block-panels-mini-footer {
+    .ayudafooter {
+        color: #fff;
+        text-decoration: none;
+        font-size: 8px;
+        margin: 0 0 0 584px;
+    }
+}
+
+//pagina error
+.page-error-403 {
+    .views-row-1 {
+        .views-field-field-imgerror {
+            margin: 0 0 0 0%;
+        }
+    }
+}
+
+//boton previzualizar
+.page-node-edit {
+    .preview {
+        h3 {
+            display: none !important;
+        }
+        .node-title {
+            display: none;
+        }
+        .links.inline {
+            display: none;
+        }
+    }
+    .region-content {
+        h3 {
+            display: none !important;
+        }
+    }
+    .messages.status {
+        display: none;
+    }
+}
+
+//reporte excel
+.page-reporte-usuarios {
+    .reporte {
+        margin: -37px 0 17px 866px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .feed-icon {
+        float: right;
+        margin: -750px 200px 0px 0px;
+    }
+}
+
+.rol_user {
+    /*#edit-filters{
+		display: none;
+	}*/
+    .form-item-permission {
+        display: none;
+    }
+}
+
+//check de alta de usuarios
+.page-admin-people-create {
+    .form-item-notify {
+        display: none;
+    }
+}
+
+.description {
+    a {
+        display: none;
+    }
+}

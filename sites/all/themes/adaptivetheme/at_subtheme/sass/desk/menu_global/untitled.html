@@ -1,0 +1,107 @@
+<?php
+
+$url=drupal_get_path_alias(current_path());
+//dpm($url);
+$arg1 = arg(0);
+$estado = arg(1);
+$tipo=arg(2);
+
+//dpm($estado);
+//dpm($tipo);
+
+	//sonora
+	if(($url=="sector-estado/$estado/$tipo" and $tipo=="Agricola") or ($url=="quienes-estado/$estado/$tipo" and $tipo=="Agricola") 
+		or ($url=="servicios-convocatoria/$estado/$tipo"  and $tipo=="Agricola") or ($url=="divulgacion-estado/$estado/$tipo"  and $tipo=="Agricola") or ($url=="eventos-y-capacitaciones"))
+	{
+
+	echo"vegetal";
+	
+
+	echo' 
+    <div class="menu_global_estados">   
+	<label for="show-menu" class="show-menu">Menu</label>
+    <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+        <li><a href="http://localhost/senasica_pruebas/">INICIO</a></li>
+        <li>
+            <a href="http://localhost/senasica_pruebas/quienes-estado/'.$estado.'/'.$tipo.'">QUIÉNES SOMOS</a>
+            <ul class="hidden">
+                <li><a href="http://localhost/senasica_pruebas/sector-estado/'.$estado.'/Agricola">VEGETAL</a></li>
+                <li><a href="http://localhost/senasica_pruebas/sector-estado/'.$estado.'/Pecuario">PECUARIO</a></li>
+                <li><a href="http://localhost/senasica_pruebas/sector-estado/'.$estado.'/Acuicola">ACUICOLA</a></li>
+            </ul>
+        </li>        
+        <li><a href="http://localhost/senasica_pruebas/servicios-convocatoria/'.$estado.'/'.$tipo.'">SERVICIOS Y CONVOCATORIAS</a></li>
+        <li><a href="http://localhost/senasica_pruebas/divulgacion-estado/'.$estado.'/'.$tipo.'">DIVULGACIÓN</a></li>
+        <li><a href="http://localhost/senasica_pruebas/eventos-y-capacitaciones/Septiembre">EVENTOS Y CAPACITACIONES</a></li>
+    </ul>
+    </div>
+	';
+
+	}//vegetal
+
+//pecuario
+	if(($url=="sector-estado/$estado/$tipo" and $tipo=="Pecuario") or ($url=="quienes-estado/$estado/$tipo" and $tipo=="Pecuario") 
+		or ($url=="servicios-convocatoria/$estado/$tipo"  and $tipo=="Pecuario") or ($url=="divulgacion-estado/$estado/$tipo"  and $tipo=="Pecuario") or ($url=="eventos-y-capacitaciones"))
+	{
+
+	echo"pecuario";
+	
+
+	echo'  
+    <div class="menu_global_estados">  
+	<label for="show-menu" class="show-menu">Menu</label>
+    <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+        <li><a href="http://localhost/senasica_pruebas/">INICIO</a></li>
+        <li>
+            <a href="http://localhost/senasica_pruebas/quienes-estado/'.$estado.'/'.$tipo.'">QUIÉNES SOMOS</a>
+            <ul class="hidden">
+                <li><a href="http://localhost/senasica_pruebas/sector-estado/'.$estado.'/Agricola">VEGETAL</a></li>
+                <li><a href="http://localhost/senasica_pruebas/sector-estado/'.$estado.'/Pecuario">PECUARIO</a></li>
+                <li><a href="http://localhost/senasica_pruebas/sector-estado/'.$estado.'/Acuicola">ACUICOLA</a></li>
+            </ul>
+        </li>        
+        <li><a href="http://localhost/senasica_pruebas/servicios-convocatoria/'.$estado.'/'.$tipo.'">SERVICIOS Y CONVOCATORIAS</a></li>
+        <li><a href="http://localhost/senasica_pruebas/divulgacion-estado/'.$estado.'/'.$tipo.'">DIVULGACIÓN</a></li>
+        <li><a href="http://localhost/senasica_pruebas/eventos-y-capacitaciones/Septiembre">EVENTOS Y CAPACITACIONES</a></li>
+    </ul>
+    </div>
+	';
+
+	}//pecuario
+
+//acuicola
+	if(($url=="sector-estado/$estado/$tipo" and $tipo=="Acuicola") or ($url=="quienes-estado/$estado/$tipo" and $tipo=="Acuicola") 
+		or ($url=="servicios-convocatoria/$estado/$tipo"  and $tipo=="Acuicola") or ($url=="divulgacion-estado/$estado/$tipo"  and $tipo=="Acuicola") or ($url=="eventos-y-capacitaciones"))
+	{
+
+	echo"acuicola";
+	
+
+	echo'
+    <div class="menu_global_estados">    
+	<label for="show-menu" class="show-menu">Menu</label>
+    <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+        <li><a href="http://localhost/senasica_pruebas/">INICIO</a></li>
+        <li>
+            <a href="http://localhost/senasica_pruebas/quienes-estado/'.$estado.'/'.$tipo.'">QUIÉNES SOMOS</a>
+            <ul class="hidden">
+                <li><a href="http://localhost/senasica_pruebas/sector-estado/'.$estado.'/Agricola">VEGETAL</a></li>
+                <li><a href="http://localhost/senasica_pruebas/sector-estado/'.$estado.'/Pecuario">PECUARIO</a></li>
+                <li><a href="http://localhost/senasica_pruebas/sector-estado/'.$estado.'/Acuicola">ACUICOLA</a></li>
+            </ul>
+        </li>        
+        <li><a href="http://localhost/senasica_pruebas/servicios-convocatoria/'.$estado.'/'.$tipo.'">SERVICIOS Y CONVOCATORIAS</a></li>
+        <li><a href="http://localhost/senasica_pruebas/divulgacion-estado/'.$estado.'/'.$tipo.'">DIVULGACIÓN</a></li>
+        <li><a href="http://localhost/senasica_pruebas/eventos-y-capacitaciones/Septiembre">EVENTOS Y CAPACITACIONES</a></li>
+    </ul>
+    </div>
+
+	';
+
+	}//acuicola
+
+
+?>

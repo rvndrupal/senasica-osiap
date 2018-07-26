@@ -1,0 +1,28 @@
+[18-Mar-2017 22:28:42 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[19-Mar-2017 15:26:05 UTC] PHP Warning:  POST Content-Length of 13904078 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[19-Mar-2017 15:26:07 UTC] PHP Warning:  POST Content-Length of 13890686 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[19-Mar-2017 15:26:53 UTC] PHP Warning:  POST Content-Length of 13904078 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[20-Mar-2017 01:57:50 America/Mexico_City] PHP Fatal error:  Call to undefined function dmp() in /home/appscond/public_html/senasicaadev/modules/php/php.module(80) : eval()'d code on line 4
+[21-Mar-2017 04:20:09 UTC] PHP Warning:  POST Content-Length of 8571986 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[21-Mar-2017 10:42:42 America/Mexico_City] PHP Fatal error:  [] operator not supported for strings in /home/appscond/public_html/senasicaadev/sites/all/modules/views/includes/admin.inc on line 2399
+[21-Mar-2017 10:58:26 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/appscond/public_html/senasicaadev/sites/all/modules/ctools/plugins/access/php.inc(55) : eval()'d code on line 1
+[21-Mar-2017 10:58:41 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/appscond/public_html/senasicaadev/sites/all/modules/ctools/plugins/access/php.inc(55) : eval()'d code on line 1
+[21-Mar-2017 10:58:43 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/appscond/public_html/senasicaadev/sites/all/modules/ctools/plugins/access/php.inc(55) : eval()'d code on line 1
+[21-Mar-2017 11:01:23 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/appscond/public_html/senasicaadev/sites/all/modules/ctools/plugins/access/php.inc(55) : eval()'d code on line 1
+[21-Mar-2017 11:01:29 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/appscond/public_html/senasicaadev/sites/all/modules/ctools/plugins/access/php.inc(55) : eval()'d code on line 1
+[21-Mar-2017 11:01:35 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/appscond/public_html/senasicaadev/sites/all/modules/ctools/plugins/access/php.inc(55) : eval()'d code on line 1
+[21-Mar-2017 11:01:36 America/Mexico_City] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/appscond/public_html/senasicaadev/sites/all/modules/ctools/plugins/access/php.inc(55) : eval()'d code on line 1
+[28-Mar-2017 00:26:12 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[16-Apr-2017 12:40:50 America/Mexico_City] PHP Fatal error:  Unsupported operand types in /home3/drupalin/public_html/project/senasica/modules/block/block.module on line 525
+[16-Apr-2017 12:42:12 America/Mexico_City] PHP Fatal error:  Unsupported operand types in /home3/drupalin/public_html/project/senasica/modules/block/block.module on line 525
+[16-Apr-2017 12:42:12 America/Mexico_City] PHP Fatal error:  Unsupported operand types in /home3/drupalin/public_html/project/senasica/modules/block/block.module on line 525
+[16-Apr-2017 12:42:12 America/Mexico_City] PHP Fatal error:  Unsupported operand types in /home3/drupalin/public_html/project/senasica/modules/block/block.module on line 525
+[16-Apr-2017 12:43:25 America/Mexico_City] PHP Fatal error:  Unsupported operand types in /home3/drupalin/public_html/project/senasica/modules/block/block.module on line 525
+[16-Apr-2017 12:50:14 America/Mexico_City] PHP Fatal error:  Unsupported operand types in /home3/drupalin/public_html/project/senasica/modules/block/block.module on line 525
+[16-Apr-2017 12:50:14 America/Mexico_City] PHP Fatal error:  Unsupported operand types in /home3/drupalin/public_html/project/senasica/modules/block/block.module on line 525
+[16-Apr-2017 12:50:14 America/Mexico_City] PHP Fatal error:  Unsupported operand types in /home3/drupalin/public_html/project/senasica/modules/block/block.module on line 525
+[20-Apr-2017 01:50:47 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home3/drupalin/public_html/project/senasica/modules/php/php.module(80) : eval()'d code on line 2
+[20-Apr-2017 01:51:34 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home3/drupalin/public_html/project/senasica/modules/php/php.module(80) : eval()'d code on line 2
+[20-Apr-2017 01:52:20 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home3/drupalin/public_html/project/senasica/modules/php/php.module(80) : eval()'d code on line 2
+[20-Apr-2017 01:53:17 America/Mexico_City] PHP Parse error:  syntax error, unexpected '&' in /home3/drupalin/public_html/project/senasica/modules/php/php.module(80) : eval()'d code on line 2
+[20-Apr-2017 01:55:59 America/Mexico_City] PHP Parse error:  syntax error, unexpected ';', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home3/drupalin/public_html/project/senasica/modules/php/php.module(80) : eval()'d code on line 3

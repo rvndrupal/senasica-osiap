@@ -1,0 +1,90 @@
+<?php
+	function eventosycapacitaciones_block_info() {
+		$blocks['eventosycapacitaciones'] = array(
+		'info' => 'Eventos y Capacitaciones',
+		'cache' => DRUPAL_NO_CACHE,
+		);
+
+		return $blocks;
+	}
+
+	function eventosycapacitaciones_theme() {
+	  return array(
+	    'eventosycapacitaciones' => array(
+	      'arguments' => array(),
+	      'template' => 'eventosycapacitaciones-block'
+	    ),
+	  );
+	}
+
+	function eventosycapacitaciones_menu() {
+		$items = array();
+		$items['eventos-y-capacitaciones'] = array(
+		    'title' => 'EVENTOS Y CAPACITACIONES',
+		    'page callback' => 'hola',
+		    'access arguments' => array('eventosycapacitaciones'),
+		  );
+		return $items;
+	}
+
+	function hola(){
+		$path = current_path();
+		//dpm($path);
+		 $nowmonth = nombremes(date('m'));
+		 if($path=="eventos-y-capacitaciones/Septiembre"){
+		 	$url='eventos-y-capacitaciones'.'/'.'Noviembre';
+		 	drupal_goto($url);
+		 	
+		 	
+		 }
+		return theme("especiales");
+	}
+
+	function eventosycapacitaciones_permission() {
+	  return array(
+	    'eventosycapacitaciones' =>  array(
+	      'title' => t('Permisos especiales'),
+	    ),
+	  );
+	}
+
+	function eventosycapacitaciones_block_view($delta = '') {
+		$block='';
+		if($delta == 'eventosycapacitaciones') {
+		$block['subject'] = '';
+		$block['content'] = botonesdemeses();
+		}
+		return $block;
+	}
+
+	// function eventosycapacitaciones_form_alter(&$form, &$form_state, $form_id) {
+	//   if($form_id=='eventos_node_form'){
+	//   	dsm($form);
+	//   	dsm($form['field_evento']['und'][0]['field_imagen_evento']['und'][0]['#default_value']);
+	//   	$form['field_evento']['und'][0]['field_imagen_evento']['und'][0]['alt'] = "ALTT";
+	//   	$form['field_evento']['und'][0]['field_imagen_evento']['und'][0]['#default_value']['title'] = 'TITLEE';
+	//   }
+	//   return $form;
+	// }
+
+	function botonesdemeses() {
+		$mesesarray=array('JANUARY'=>'ENERO', 'FEBRUARY'=>'FEBRERO', 'MARCH'=>'MARZO', 'APRIL'=>'ABRIL', 'MAY'=>'MAYO', 'JUNE'=>'JUNIO', 'JULY'=>'JULIO', 'AUGUST'=>'AGOSTO', 'SEPTEMBER'=>'SEPTIEMBRE', 'OCTOBER'=>'OCTUBRE', 'NOVEMBER'=>'NOVIEMBRE', 'DECEMBER'=>'DICIEMBRE');
+
+		$prevmonth = $mesesarray[nombremes(date('m', strtotime('-1 months')))];
+		$nowmonth = $mesesarray[nombremes(date('m'))];
+		$nextmonth = $mesesarray[nombremes(date('m', strtotime('+1 months')))];
+		$afternextmonth = $mesesarray[nombremes(date('m', strtotime('+2 months')))];
+
+		return theme('eventosycapacitaciones',array('prevmonth' => $prevmonth,
+													'nowmonth' => $nowmonth,
+													'nextmonth' => $nextmonth,
+													'afternextmonth' => $afternextmonth)); 
+
+	}
+
+	function nombremes($mes){
+		setlocale(LC_ALL,"es_MX");
+		$nombre=strftime("%B",mktime(0, 0, 0, $mes, 1, 2000)); 
+		return strtoupper($nombre);
+	} 
+

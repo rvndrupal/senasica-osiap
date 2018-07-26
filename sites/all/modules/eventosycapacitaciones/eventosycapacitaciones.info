@@ -1,0 +1,6 @@
+name = Eventos y capacitaciones
+description = Módulo eventos y capacitaciones
+core = 7.x
+package = Notmusa
+php = 5.3
+version = 1.0

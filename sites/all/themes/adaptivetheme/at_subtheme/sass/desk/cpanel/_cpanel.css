@@ -1,0 +1,1174 @@
+.cpanel .panels-flexible-39-inside {
+  margin: 0 0 0 15px;
+}
+
+.cpanel .panels-flexible-region-39-center {
+  background: rgba(128, 128, 128, 0.32);
+  width: 1200px;
+  height: 1170px;
+  margin: 11px 0 0 0;
+  /*.usuarios_global{
+						background: #02c3be;
+						    width: 116px;
+						    height: 112px;
+						    font-size: 47px;
+						    padding: 8px 0 0 68px;
+						    color: white;
+						    margin: 450px 0 0 700px;
+						    position: absolute;
+					        &:hover {
+						        color:yellow;
+						    }
+
+					    	.fa.fa-plus-square {
+					    	    font-size: 16px;
+				    	        color: white;
+				    	        margin: 58px 0 0 -80px;
+				    	        position: absolute;
+				    	        text-decoration: none;
+				    	        &:hover {
+						        color:yellow;
+						    	}
+					    	}
+					    	.fa.fa-pencil-square{
+					    		font-size: 16px;
+				    	        color: white;
+				    	        margin: 33px 0 0 -33px;
+				    	        position: absolute;
+				    	        text-decoration: none;
+				    	        &:hover {
+						        color:yellow;
+						    	}
+					    	}
+
+			}*/
+  /*splash ventana modal*/
+  /*Banner por estado*/
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .view-foto-user {
+  margin: -80px 0 22px 1000px;
+  position: relative;
+  z-index: 100;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .bienvenidos {
+  font-size: 36px;
+  margin: 12px 0 0 -12px;
+  color: #eae6e6;
+  background: #ad0c00;
+  width: 100%;
+  padding: 19px 0 11px 18px;
+  height: 40px;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .bienvenidos p {
+  margin: -38px 0 0 65px;
+  font-size: initial;
+  font-size: 38px;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .slider_panel {
+  background: rgba(11, 107, 21, 0.92);
+  width: 124px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 59px;
+  color: white;
+  margin: 0 0 0 70px;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .slider_panel:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .slider_panel .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -79px;
+  position: absolute;
+  text-decoration: none;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .slider_panel .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .slider_panel .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .slider_panel .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .redes {
+  background: rgba(11, 61, 107, 0.92);
+  width: 124px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 59px;
+  color: white;
+  margin: -134px 0 0 350px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .redes:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .redes .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -94px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .redes .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .redes .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .redes .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .quienes_somos {
+  background: rgba(107, 11, 80, 0.92);
+  width: 124px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 59px;
+  color: white;
+  margin: -150px 0 0 641px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .quienes_somos:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .quienes_somos .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -85px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .quienes_somos .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .quienes_somos .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .quienes_somos .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .directorio {
+  background: #b5113b;
+  width: 124px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 59px;
+  color: white;
+  margin: -19px 0 0 71px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .directorio:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .directorio .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -75px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .directorio .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .directorio .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .directorio .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .noticias_pie {
+  background: #1131b5;
+  width: 124px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 59px;
+  color: white;
+  margin: -33px 0 0 350px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .noticias_pie:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .noticias_pie .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -79px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .noticias_pie .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .noticias_pie .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .noticias_pie .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .buscarpanel {
+  background: #065e88;
+  width: 100px;
+  height: 148px;
+  font-size: 57px;
+  padding: 36px 0 0 46px;
+  color: white;
+  margin: 105px 0 0 906px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .buscarpanel:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .buscarpanel a {
+  font-size: 24px;
+  margin: 81px 0 0px -61px;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .buscarpanel a:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .buscarpanel .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -75px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .buscarpanel .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .buscarpanel .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .buscarpanel .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviuno {
+  background: rgba(11, 107, 21, 0.92);
+  width: 95px;
+  height: 103px;
+  font-size: 47px;
+  padding: 8px 0 0 47px;
+  color: white;
+  margin: 150px 0 0 70px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviuno:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviuno .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -84px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviuno .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviuno .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -44px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviuno .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movidos {
+  background: rgba(11, 61, 107, 0.92);
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 136px 0 0 72px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movidos:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movidos .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -80px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movidos .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movidos .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -28px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movidos .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movitres {
+  background: rgba(107, 11, 80, 0.92);
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 121px 0 0 346px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movitres:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movitres .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -80px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movitres .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movitres .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -28px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movitres .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicuatro {
+  background: #b5113b;
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 104px 0 0 641px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicuatro:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicuatro .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -84px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicuatro .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicuatro .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicuatro .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicinco {
+  background: #02c3be;
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 227px 0 0 73px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicinco:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicinco .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -84px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicinco .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicinco .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movicinco .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviseis {
+  background: #1131b5;
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 212px 0 0 345px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviseis:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviseis .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -84px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviseis .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviseis .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .moviseis .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movisiete {
+  background: rgba(11, 61, 107, 0.92);
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 196px 0 0 641px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movisiete:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movisiete .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -84px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movisiete .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movisiete .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .movisiete .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .block-content .titulomov {
+  position: absolute;
+  margin: 111px 0 0px 69px;
+  color: #eae6e6;
+  background: #ad0c00;
+  padding: 5px;
+  width: 195px;
+  height: 20px;
+  font-size: initial;
+}
+
+.cpanel .panels-flexible-region-39-center .tituloestados {
+  position: absolute;
+  margin: 336px 0 0px 69px;
+  color: #eae6e6;
+  background: #ad0c00;
+  padding: 5px;
+  width: 222px;
+  height: 20px;
+  font-size: initial;
+}
+
+.cpanel .panels-flexible-region-39-center .quienes_estado {
+  background: rgba(107, 11, 80, 0.92);
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 382px 0 0 70px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .quienes_estado:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .quienes_estado .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -98px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .quienes_estado .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .quienes_estado .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .quienes_estado .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .sector_estado {
+  background: rgba(11, 61, 107, 0.92);
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 366px 0 0 345px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .sector_estado:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .sector_estado .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -89px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .sector_estado .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .sector_estado .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -37px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .sector_estado .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .servicios_estado {
+  background: #b5113b;
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 350px 0 0 643px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .servicios_estado:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .servicios_estado .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -92px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .servicios_estado .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .servicios_estado .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -37px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .servicios_estado .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .divulgacion_estado {
+  background: rgba(11, 107, 21, 0.92);
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 481px 0 0 68px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .divulgacion_estado:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .divulgacion_estado .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -107px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .divulgacion_estado .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .divulgacion_estado .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -45px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .divulgacion_estado .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .eventos_estados {
+  background: rgba(11, 107, 21, 0.92);
+  width: 124px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 59px;
+  color: white;
+  margin: -49px 0 0 641px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .eventos_estados:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .eventos_estados .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -116px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .eventos_estados .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .eventos_estados .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -54px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .eventos_estados .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .redes_estado {
+  background: #1131b5;
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 465px 0 0 345px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .redes_estado:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .redes_estado .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -92px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .redes_estado .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .redes_estado .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -30px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .redes_estado .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .usuarios_global {
+  background: #02c3be;
+  width: 116px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 68px;
+  color: white;
+  margin: 449px 0 0 643px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .usuarios_global:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .usuarios_global .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -76px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .usuarios_global .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .usuarios_global .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 79px 0 0 -76px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .usuarios_global .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .sesion_estados {
+  background: #b5113b;
+  width: 95px;
+  height: 103px;
+  font-size: 47px;
+  padding: 8px 0 0 49px;
+  color: white;
+  margin: 110px 0 0 771px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .sesion_estados:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .sesion_estados .fa.fa-times-circle {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -80px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .sesion_estados .fa.fa-times-circle:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .sesion_estados .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -33px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .sesion_estados .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .modal {
+  background: #b5113b;
+  width: 124px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 59px;
+  color: white;
+  margin: -452px 0 0 886px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .modal:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .modal .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -79px;
+  position: absolute;
+  text-decoration: none;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .modal .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .modal .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .modal .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .bannerEstado {
+  background: rgba(11, 61, 107, 0.92);
+  width: 124px;
+  height: 112px;
+  font-size: 47px;
+  padding: 8px 0 0 59px;
+  color: white;
+  margin: -319px 0 0 886px;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .bannerEstado:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .bannerEstado .fa.fa-plus-square {
+  font-size: 16px;
+  color: white;
+  margin: 58px 0 0 -79px;
+  position: absolute;
+  text-decoration: none;
+  position: absolute;
+}
+
+.cpanel .panels-flexible-region-39-center .bannerEstado .fa.fa-plus-square:hover {
+  color: yellow;
+}
+
+.cpanel .panels-flexible-region-39-center .bannerEstado .fa.fa-pencil-square {
+  font-size: 16px;
+  color: white;
+  margin: 33px 0 0 -32px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.cpanel .panels-flexible-region-39-center .bannerEstado .fa.fa-pencil-square:hover {
+  color: yellow;
+}
+
+.cpanel .regizq {
+  background-color: black;
+  height: 1170px;
+  width: 100%;
+}
+
+.cpanel .regizq .view-header {
+  margin: 11px 0 0 34px;
+}
+
+.cpanel .regizq .view-header .fa.fa-map-marker {
+  font-size: 39px;
+  color: white;
+}
+
+.cpanel .regizq .form-item-name #edit-name {
+  width: 185px;
+  color: black;
+  background-color: white;
+  border-radius: 14px;
+  height: 26px;
+  margin: 0 0 0 18px;
+}
+
+.cpanel .regizq label {
+  display: none;
+}
+
+.cpanel .regizq [class*="views-row-"] .views-field-php a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 0 0 21px;
+}
+
+.rol_user #admin-menu {
+  display: none;
+}
+
+.rol_user #block-block-40 {
+  margin: 0 0 2px 0;
+}
+
+.rol_user .menu_global {
+  background: #484848;
+  width: 100%;
+  height: 31px;
+  top: 0px;
+  position: absolute;
+  margin: 0 0 0 -10px;
+}
+
+.rol_user .menu_global a.fa.fa-home {
+  color: white;
+  margin: 8px 0 0 8px;
+}
+
+.rol_user .menu_global a.fa.fa-cogs {
+  color: white;
+  margin: 8px 0 0 15px;
+}
+
+.rol_user .menu_global a.fa.fa-user-times {
+  color: white;
+  margin: 8px 0 0 690px;
+}
+
+.rol_user .menu_global a.fa.fa-user-circle {
+  color: white;
+  margin: 8px 0 0 1%;
+}
+
+.rol_user .menu_global a.fa.fa-question-circle {
+  color: white;
+  margin: 8px 0 0 1%;
+}
+
+.rol_user #block-block-41 .menu_global a.fa.fa-user-times {
+  color: white;
+  margin: 8px 0 0 522px;
+}
+
+.page-user #main-content #tasks li a {
+  display: none;
+}
+
+.page-user #main-content #tasks li .active {
+  display: block;
+}
+
+.ayuda .views-exposed-form {
+  margin: 0 0 0 7%;
+}
+
+.ayuda .view-content {
+  text-align: center;
+  margin: 23px 0 0px 0;
+}
+
+.ayuda .view-content .views-field-title {
+  text-align: left;
+  margin: 0 0 2px 93px;
+  font-size: 20px;
+  font-family: initial;
+  width: 1162px;
+}
+
+.ayuda #page-title {
+  margin: 0 0 0 7%;
+  font-size: 37px;
+}
+
+#block-panels-mini-footer .ayudafooter {
+  color: #fff;
+  text-decoration: none;
+  font-size: 8px;
+  margin: 0 0 0 584px;
+}
+
+.page-error-403 .views-row-1 .views-field-field-imgerror {
+  margin: 0 0 0 0%;
+}
+
+.page-node-edit .preview h3 {
+  display: none !important;
+}
+
+.page-node-edit .preview .node-title {
+  display: none;
+}
+
+.page-node-edit .preview .links.inline {
+  display: none;
+}
+
+.page-node-edit .region-content h3 {
+  display: none !important;
+}
+
+.page-node-edit .messages.status {
+  display: none;
+}
+
+.page-reporte-usuarios .reporte {
+  margin: -37px 0 17px 866px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.page-reporte-usuarios .feed-icon {
+  float: right;
+  margin: -750px 200px 0px 0px;
+}
+
+.rol_user {
+  /*#edit-filters{
+		display: none;
+	}*/
+}
+
+.rol_user .form-item-permission {
+  display: none;
+}
+
+.page-admin-people-create .form-item-notify {
+  display: none;
+}
+
+.description a {
+  display: none;
+}

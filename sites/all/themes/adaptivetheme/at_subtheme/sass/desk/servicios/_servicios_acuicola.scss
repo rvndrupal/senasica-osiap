@@ -1,0 +1,185 @@
+.servicios_convocatoria_estado{
+	#block-system-main{
+		.panels-flexible-region-46-izq-inside{
+			.views-field-field-imgizq{
+				img{
+				margin: 12px 0 0 10%;
+				}
+			}
+		}//izq
+		.panels-flexible-region-46-der-inside{
+			.views-row-1{
+				.views-field-field-imgder{
+					    margin: 10px 0 0 36%;
+				}
+			}
+		}//derecha
+
+		.panels-flexible-region-46-center{
+
+			.view-header{
+				.views-field-title{
+					font-weight: bold;
+					font-size: 2.5em;
+					max-width: 1000px;
+					margin: 20px auto -31px auto;
+					font-family: arial, sans-serif;
+				}
+
+			}
+
+			[class*="views-row-"]{
+				
+				.views-field-field-subtitulo{
+					font-size: 1.2em;
+					font-family: arial, sans-serif;
+					max-width: 1000px;
+					margin: 0px auto 0px auto;
+				}
+				.views-field-field-descripcion{
+					max-width: 1000px;
+					margin: 0 auto 0 auto;
+					font-size: 1em;
+					font-family: arial, sans-serif;
+					max-width: 1000px;
+					margin: 0px auto 0px auto;
+				}
+
+				.views-field-php{
+							.verde{
+							background-color: #6dad3b;
+							width: 98%;
+							height: 24px;
+							margin: 0px 0 20px 0%;
+							position: relative;
+
+							
+								span {
+								    font-size: 11px;
+								    margin: 0px 0 0 81%;
+								    color: #fff;
+
+								}
+								a{
+									.pdf{
+									    width: 59px;
+									    height: 55px;
+									    margin: -24px 0 0 6%;
+									    position: absolute;
+									}
+
+								}
+							}//verde
+
+							.rojo{
+							background-color: #89352A;
+							width: 98%;
+							height: 24px;
+							margin: 0px 0 20px 0%;
+							position: relative;
+
+							
+								span {
+								    font-size: 11px;
+								    margin: 0px 0 0 81%;
+								    color: #fff;
+
+								}
+								a{
+									.pdf{
+									    width: 59px;
+									    height: 55px;
+									    margin: -24px 0 0 6%;
+									    position: absolute;
+									}
+
+								}
+							}//rojo
+
+							.azul{
+							background-color: #4cb2e2;
+							width: 98%;
+							height: 24px;
+							margin: 0px 0 20px 0%;
+							position: relative;
+
+							
+								span {
+								    font-size: 11px;
+								    margin: 0px 0 0 81%;
+								    color: #fff;
+
+								}
+								a{
+									.pdf{
+									    width: 59px;
+									    height: 55px;
+									    margin: -24px 0 0 6%;
+									    position: absolute;
+									}
+
+								}
+							}//rojo
+						}//php
+
+			}
+
+			li.pager-current.odd {
+				    display: none;
+					}
+
+					.pager-next a {
+					    color: black;
+					    font-size: 21px;
+					}
+
+					.pager-previous a {
+					    color: black;
+					    font-size: 21px;
+					    margin: 0 0 0 11px;
+					}
+
+
+		}//centro
+
+		.pager--infinite-scroll{
+			a {
+			    text-decoration: none;
+			    color: black;
+			    font-size: 1em;
+			    font-family: arial, sans-serif;
+			}
+		}
+	}//main
+
+
+	/*banner*/
+		.view-id-banner_estados {
+	    position: absolute;
+	  	 margin: -159px 0 0 -11px ;
+		    width: 1709px;
+	    	img{
+	    		height: 87px !important;
+
+	    	}
+		}
+
+
+
+		/*laptop*/
+		@media only screen and (min-width: 900px) and (max-width: 1420px)
+		{
+			.view-id-banner_estados {
+		    position: absolute;
+		    margin: -142px 0 0 -11px !important;
+		     width: 1360px !important;
+		    img{
+		    	height: 70px !important;
+		    }
+		    	
+		}
+
+		}
+
+
+}//general

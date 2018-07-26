@@ -1,0 +1,35 @@
+.page-maps-pruebas{
+	background-color: red;
+	[class*="cHome"]{
+		background-image: url(../images/icons_home.jpg);
+    	height: 39px;
+		width: 36px;
+	}
+
+	.contentHome .cHomeN{
+		background-position: 0px 0px;
+	}
+	.contentHome .cHomeA{
+		background-position: 0px -46px;
+	}
+	.contentHome .cHomeR{
+		background-position: 0px -96px;
+	}
+	.contentHome .cHomeV{
+		background-position: -2px 41px;
+	}
+	.contHome div{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.contHome b{
+		display: inline-block;
+		vertical-align: top;
+		margin: 10px 0 0 5px;
+	}
+
+	.contentHome {
+        margin: 292px 0 0 0 !important;
+    
+    }
+}
